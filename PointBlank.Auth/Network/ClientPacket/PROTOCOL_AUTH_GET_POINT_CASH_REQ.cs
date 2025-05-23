@@ -23,7 +23,7 @@ namespace PointBlank.Auth.Network.ClientPacket
         {
             if (_client._player != null)
             {
-                _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, _client._player._gp, _client._player._money));
+                _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, _client._player._gp, _client._player._money, _client._player._tag));
             }
         }
     }

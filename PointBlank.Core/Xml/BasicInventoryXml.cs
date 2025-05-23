@@ -19,7 +19,7 @@ namespace PointBlank.Core.Xml
                 {
                     NpgsqlCommand command = connection.CreateCommand();
                     connection.Open();
-                    command.CommandText = "SELECT * FROM server_inventory_template";
+                    command.CommandText = "SELECT * FROM server_inventory_template;";
                     command.CommandType = CommandType.Text;
                     NpgsqlDataReader data = command.ExecuteReader();
                     while (data.Read())

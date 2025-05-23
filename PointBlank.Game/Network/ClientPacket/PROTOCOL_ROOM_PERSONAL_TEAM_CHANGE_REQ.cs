@@ -37,7 +37,7 @@ namespace PointBlank.Game.Network.ClientPacket
                         Monitor.Enter(room._slots);
                         room.changingSlots = true;
                         List<SlotChange> changeList = new List<SlotChange>();
-                        room.SwitchNewSlot(changeList, player, slot, teamIdx, 0, false);
+                        //room.SwitchNewSlot(changeList, player, slot, teamIdx, 0, false);
                         if (changeList.Count > 0)
                         {
                             using (PROTOCOL_ROOM_TEAM_BALANCE_ACK packet = new PROTOCOL_ROOM_TEAM_BALANCE_ACK(changeList, room._leader, 0))

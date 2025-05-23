@@ -35,6 +35,7 @@ namespace PointBlank.Auth.Network.ClientPacket
             Logger.debug(result.ToString());
             return result.ToString().Trim();
         }
+
         public PROTOCOL_BASE_LOGIN_REQ(AuthClient client, byte[] data)
         {
             makeme(client, data);
@@ -42,6 +43,7 @@ namespace PointBlank.Auth.Network.ClientPacket
             if (AuthConfig.debugMode)
                 Logger.debug(HexDump(data));
         }
+
         public static string FormatMacAddress(PhysicalAddress macAddress)
         {
             byte[] bytes = macAddress.GetAddressBytes();
@@ -116,7 +118,7 @@ namespace PointBlank.Auth.Network.ClientPacket
                     p._clanPlayers = ClanManager.getClanPlayers(p.clan_id, p.player_id);
                     //_client.SendPacket(new PROTOCOL_BASE_LOGIN_ACK(EventErrorEnum.LOGIN_BLOCK_ACCOUNT, "", 0));
                     _client.SendPacket(new PROTOCOL_BASE_LOGIN_ACK(0, p.login, p.player_id));
-                    _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, p._gp, p._money));
+                    _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, p._gp, p._money, p._tag));
                     if (p.clan_id > 0)
                     {
                         _client.SendPacket(new PROTOCOL_CS_MEMBER_INFO_ACK(p._clanPlayers));
@@ -150,5 +152,5 @@ namespace PointBlank.Auth.Network.ClientPacket
             }
             return false;
         }
-        }
     }
+}

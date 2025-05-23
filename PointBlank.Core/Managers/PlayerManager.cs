@@ -11,6 +11,8 @@ using System.Data;
 using System.Globalization;
 using System.Text;
 using PointBlank.Core.Models.Shop;
+using System.ComponentModel;
+using System.Data.Common;
 
 namespace PointBlank.Core.Managers
 {
@@ -373,7 +375,7 @@ namespace PointBlank.Core.Managers
 
         public static bool updateAccountCashing(long player_id, int gold, int cash)
         {
-            if (player_id == 0 || gold == -1 && cash == -1)
+            if (player_id == 0 || gold == -1)
             {
                 return false;
             }
@@ -401,6 +403,64 @@ namespace PointBlank.Core.Managers
                     command.Dispose();
                     connection.Dispose();
                     connection.Close();
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Logger.error(ex.ToString());
+                return false;
+            }
+        }
+
+        public static bool updateAccountCash(long player_id, int cash)
+        {
+            if (player_id == 0 || cash == -1)
+            {
+                return false;
+            }
+            try
+            {
+                using (NpgsqlConnection connection = SqlConnection.getInstance().conn())
+                {
+                    NpgsqlCommand command = connection.CreateCommand();
+                    connection.Open();
+                    command.CommandType = CommandType.Text;
+                    command.Parameters.AddWithValue("@owner", player_id);
+                    command.Parameters.AddWithValue("@cash", cash);
+                    command.CommandText = "UPDATE players SET money=@cash WHERE player_id=@owner";
+                    command.ExecuteNonQuery();
+                    command.Dispose();
+                    connection.Dispose();
+                    connection.Close();
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Logger.error(ex.ToString());
+                return false;
+            }
+        }
+
+        public static bool updateAccountTag(long player_id, int tag) //int tag
+        {
+            if (player_id == 0L || tag == -1)
+                return false;
+            try
+            {
+                using (NpgsqlConnection npgsqlConnection = SqlConnection.getInstance().conn())
+                {
+                    NpgsqlCommand command = npgsqlConnection.CreateCommand();
+                    ((DbConnection)npgsqlConnection).Open();
+                    ((DbCommand)command).CommandType = CommandType.Text;
+                    command.Parameters.AddWithValue("@owner", (object)player_id);
+                    command.Parameters.AddWithValue("@tag", (object)tag);
+                    ((DbCommand)command).CommandText = "UPDATE players SET tag=@tag WHERE player_id=@owner";
+                    ((DbCommand)command).ExecuteNonQuery();
+                    ((Component)command).Dispose();
+                    ((Component)npgsqlConnection).Dispose();
+                    ((DbConnection)npgsqlConnection).Close();
                 }
                 return true;
             }
@@ -457,36 +517,6 @@ namespace PointBlank.Core.Managers
                     command.Parameters.AddWithValue("@owner", player_id);
                     command.Parameters.AddWithValue("@pc_cafe", Vip);
                     command.CommandText = "UPDATE players SET pc_cafe=@pc_cafe WHERE player_id=@owner";
-                    command.ExecuteNonQuery();
-                    command.Dispose();
-                    connection.Dispose();
-                    connection.Close();
-                }
-                return true;
-            }
-            catch (Exception ex)
-            {
-                Logger.error(ex.ToString());
-                return false;
-            }
-        }
-
-        public static bool updateAccountCash(long player_id, int cash)
-        {
-            if (player_id == 0 || cash == -1)
-            {
-                return false;
-            }
-            try
-            {
-                using (NpgsqlConnection connection = SqlConnection.getInstance().conn())
-                {
-                    NpgsqlCommand command = connection.CreateCommand();
-                    connection.Open();
-                    command.CommandType = CommandType.Text;
-                    command.Parameters.AddWithValue("@owner", player_id);
-                    command.Parameters.AddWithValue("@cash", cash);
-                    command.CommandText = "UPDATE players SET money=@cash WHERE player_id=@owner";
                     command.ExecuteNonQuery();
                     command.Dispose();
                     connection.Dispose();

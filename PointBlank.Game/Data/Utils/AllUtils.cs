@@ -1472,7 +1472,7 @@ namespace PointBlank.Game.Data.Utils
             {
                 goto EndLabel;
             }
-            room.CalculateResultFreeForAll(SlotWin);
+            //room.CalculateResultFreeForAll(SlotWin);
             ushort inBattle, missionCompletes;
             getBattleResult(room, out missionCompletes, out inBattle);
             using (PROTOCOL_BATTLE_MISSION_ROUND_END_ACK packet = new PROTOCOL_BATTLE_MISSION_ROUND_END_ACK(room, SlotWin, RoundEndType.FreeForAll))
@@ -1505,7 +1505,7 @@ namespace PointBlank.Game.Data.Utils
                     if (cm.RedPlayers >= 1 && cm.BluePlayers >= 1)
                     {
                         room.blockedClan = true;
-                        //Logger.warning("XP canceled in clan [Room: " + room._roomId + "; Channel: " + room._channelId + "; ClanId: " + cm.clanId + "]");
+                        Logger.warning("XP canceled in clan [Room: " + room._roomId + "; Channel: " + room._channelId + "; ClanId: " + cm.clanId + "]");
                         return true;
                     }
                 }

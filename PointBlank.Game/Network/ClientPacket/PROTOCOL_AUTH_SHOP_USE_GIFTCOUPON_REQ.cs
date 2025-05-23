@@ -16,7 +16,7 @@ namespace PointBlank.Game.Network.ClientPacket
     public class PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ : ReceivePacket
     {
         private string Token;
-        //private uint Error;
+        private uint Error;
 
         public PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ(GameClient Client, byte[] Buffer)
         {
@@ -32,9 +32,7 @@ namespace PointBlank.Game.Network.ClientPacket
         {
             try
             {
-                _client.SendPacket(new PROTOCOL_SERVER_MESSAGE_ANNOUNCE_ACK("ระบบนี้ยังไม่เปิดใช้งาน"));
-
-                /*Account Player = _client._player;
+                Account Player = _client._player;
                 TicketModel Ticket = TicketManager.GetTickets().Find(x => x.Ticket == Token);
                 if (Ticket != null)
                 {
@@ -58,8 +56,8 @@ namespace PointBlank.Game.Network.ClientPacket
                 else
                 {
                     Error = 0x80000000;
-                    _client.SendPacket(new PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_ACK(Error));
-                }*/
+                }
+                _client.SendPacket(new PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_ACK(Error));
             }
             catch (Exception ex)
             {

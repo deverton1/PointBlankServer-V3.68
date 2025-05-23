@@ -23,7 +23,7 @@ namespace PointBlank.Auth.Data.Model
         public CouponEffects effects;
         public uint LastRankUpDate;
         public string player_name = "", password, login, token, hwid;
-        public int tourneyLevel, _exp, _gp, clan_id, clanAccess, _money, pc_cafe = 0, _rank, brooch, insignia, medal, blue_order, name_color, access, age;
+        public int tourneyLevel, _exp, _gp, clan_id, clanAccess, _money, _tag, pc_cafe = 0, _rank, brooch, insignia, medal, blue_order, name_color, access, age;
         public long player_id, ban_obj_id;
         public PhysicalAddress MacAddress;
         public PlayerEquipedItems _equip = new PlayerEquipedItems();

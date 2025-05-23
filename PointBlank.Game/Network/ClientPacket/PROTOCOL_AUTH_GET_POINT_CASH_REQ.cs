@@ -26,7 +26,7 @@ namespace PointBlank.Game.Network.ClientPacket
                 {
                     return;
                 }
-                _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, p._gp, p._money));
+                _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, p._gp, p._money, p._tag));
             }
             catch (Exception ex)
             {

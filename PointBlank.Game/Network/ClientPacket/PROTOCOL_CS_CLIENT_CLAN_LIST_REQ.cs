@@ -64,7 +64,7 @@ namespace PointBlank.Game.Network.ClientPacket
             p.writeD(clan.creationDate);
             p.writeD(clan._logo);
             p.writeC((byte)clan._name_color);
-            p.writeC((byte)clan.effect);
+            //p.writeC((byte)clan.effect);
             p.writeD(clan.partidas);
             p.writeD(clan.vitorias);
             p.writeD(clan.derrotas);

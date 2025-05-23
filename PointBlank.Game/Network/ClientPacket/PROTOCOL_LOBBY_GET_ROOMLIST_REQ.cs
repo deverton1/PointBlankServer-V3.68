@@ -55,6 +55,7 @@ namespace PointBlank.Game.Network.ClientPacket
             catch (Exception ex)
             {
                 Logger.warning("PROTOCOL_LOBBY_GET_ROOMLIST_REQ: " + ex.ToString());
+            }
         }
 
         private byte[] GetRoomListData(int page, ref int count, List<Room> list)
@@ -86,28 +87,32 @@ namespace PointBlank.Game.Network.ClientPacket
             p.writeC((byte)room.rule);
             p.writeC(room.stage);
             p.writeC((byte)room.RoomType);
-            if (room.RoomState == RoomState.Battle)
+            p.writeC((byte)room.RoomState);
             p.writeC((byte)room.getAllPlayers().Count);
             p.writeC((byte)room.getSlotCount());
             p.writeC((byte)room._ping);
-            p.writeC((byte)room.weaponsFlag);
-            if (room.password.Length > 0)
-            {
-            p.writeH(0);
+            p.writeH((ushort)room.weaponsFlag);
+            p.writeH((ushort)room.getFlag());
+            p.writeC((byte)room._leader);
+            p.writeH(200);
+            p.writeC(0);
         }
 
         private void WritePlayerData(Account pl, SendGPacket p)
         {
             Clan clan = ClanManager.getClan(pl.clanId);
             p.writeD(pl.getSessionId());
-            p.writeD(clan._logo); //FF FF FF FF
+            p.writeD(clan._logo);
             p.writeC((byte)clan.effect);
             p.writeUnicode(clan._name, 34);
             p.writeH((short)pl.getRank());
             p.writeUnicode(pl.player_name, 66);
-            p.writeC((byte)pl.name_color);
-            p.writeC(210);
+            p.writeC((byte)pl.name_color); // 0
+            p.writeC(0); //210
+            p.writeD(0);
+            p.writeC(0);
         }
+
         private byte[] GetPlayerListData(int page, ref int count, List<Account> list)
         {
             int startid = 0;

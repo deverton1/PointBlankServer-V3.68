@@ -41,13 +41,13 @@ namespace PointBlank.Game.Network.ClientPacket
                 if (Player == null || Player.player_name.Length == 0)
                 {
                     _client.SendPacket(new PROTOCOL_CHAR_CREATE_CHARA_ACK(2147487767, 0, null, null));
-                    _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, _client._player._gp, _client._player._money));
+                    _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, _client._player._gp, _client._player._money, _client._player._tag));
                     return;
                 }
                 if (Player._inventory._items.Count >= 500 || Player.Characters.Count >= 32)
                 {
                     _client.SendPacket(new PROTOCOL_CHAR_CREATE_CHARA_ACK(2147487929, 0, null, null));
-                    _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, _client._player._gp, _client._player._money));
+                    _client.SendPacket(new PROTOCOL_AUTH_GET_POINT_CASH_ACK(0, _client._player._gp, _client._player._money, _client._player._tag));
                     return;
                 }
                 int gold, cash;

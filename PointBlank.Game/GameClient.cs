@@ -235,7 +235,7 @@ namespace PointBlank.Game
 
 
 
-                    Logger.LogYaz($"[S]: {bp.GetType().Name}\t\tData Length: {newPacketData.Length}", ConsoleColor.Cyan);
+                    Logger.Cyan($"[S]: {bp.GetType().Name}\t\tData Length: {newPacketData.Length}");
 
                     if (newPacketData.Length > 0)
                     {
@@ -470,83 +470,140 @@ namespace PointBlank.Game
             ReceivePacket packet = null;
             switch (Opcode)
             {
-                case 515:packet = new PROTOCOL_BASE_LOGOUT_REQ(this, buff); break;
-                case 517:packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
-                case 520:packet = new PROTOCOL_BASE_GAMEGUARD_REQ(this, buff); break;
-                case 530:packet = new PROTOCOL_BASE_OPTION_SAVE_REQ(this, buff); break;
-                case 534:packet = new PROTOCOL_BASE_CREATE_NICK_REQ(this, buff); break;
-                case 536:packet = new PROTOCOL_BASE_USER_LEAVE_REQ(this, buff); break;
-                case 538:packet = new PROTOCOL_BASE_USER_ENTER_REQ(this, buff); break;
-
-                //CHANNEL
-                case 540:packet = new PROTOCOL_BASE_GET_CHANNELLIST_REQ(this, buff); break;
-                case 542:packet = new PROTOCOL_BASE_SELECT_CHANNEL_REQ(this, buff); break;
-
-                case 544:packet = new PROTOCOL_BASE_ATTENDANCE_REQ(this, buff); break;
-                case 546:packet = new PROTOCOL_BASE_ATTENDANCE_CLEAR_ITEM_REQ(this, buff); break;
-                case 558:packet = new PROTOCOL_BASE_GET_RECORD_INFO_DB_REQ(this, buff); break;
-                case 568:packet = new PROTOCOL_BASE_QUEST_ACTIVE_IDX_CHANGE_REQ(this, buff); break;
-                case 572:packet = new PROTOCOL_BASE_QUEST_BUY_CARD_SET_REQ(this, buff); break;
-                case 574:packet = new PROTOCOL_BASE_QUEST_DELETE_CARD_SET_REQ(this, buff); break;
-                case 584:packet = new PROTOCOL_BASE_USER_TITLE_CHANGE_REQ(this, buff); break;
-                case 586:packet = new PROTOCOL_BASE_USER_TITLE_EQUIP_REQ(this, buff); break;
-                case 588:packet = new PROTOCOL_BASE_USER_TITLE_RELEASE_REQ(this, buff); break;
-                case 592:packet = new PROTOCOL_BASE_CHATTING_REQ(this, buff); break;
-                case 600:packet = new PROTOCOL_BASE_MISSION_SUCCESS_REQ(this, buff); break;
-                 // New
-                case 607: packet = new PROTOCOL_BASE_GAME_SERVER_STATE_REQ(this, buff); break;
-                case 697: packet = new PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ(this, buff); break;
-                case 7699: packet = new PROTOCOL_7699_REQ(this, buff); break;
-
-                case 633:packet = new PROTOCOL_BASE_GET_USER_BASIC_INFO_REQ(this, buff); break;
-                case 622:packet = new PROTOCOL_BASE_DAILY_RECORD_REQ(this, buff); break;
-                case 672:packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
-                case 685:packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
-                case 706:packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
-                case 716:packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
-                case 787:packet = new PROTOCOL_AUTH_FRIEND_INVITED_REQUEST_REQ(this, buff); break;
-                case 792:packet = new PROTOCOL_AUTH_FRIEND_ACCEPT_REQ(this, buff); break;
-                case 794:packet = new PROTOCOL_AUTH_FRIEND_INVITED_REQ(this, buff); break;
-                case 796:packet = new PROTOCOL_AUTH_FRIEND_DELETE_REQ(this, buff); break;
-                case 802:packet = new PROTOCOL_AUTH_RECV_WHISPER_REQ(this, buff); break;
-                case 804:packet = new PROTOCOL_AUTH_SEND_WHISPER_REQ(this, buff); break;
-                case 809:packet = new PROTOCOL_AUTH_FIND_USER_REQ(this, buff); break;
-                case 929:packet = new PROTOCOL_MESSENGER_NOTE_SEND_REQ(this, buff); break;
-                case 931:packet = new PROTOCOL_MESSENGER_NOTE_RECEIVE_REQ(this, buff); break;
-                case 934:packet = new PROTOCOL_MESSENGER_NOTE_CHECK_READED_REQ(this, buff); break;
-                case 936:packet = new PROTOCOL_MESSENGER_NOTE_DELETE_REQ(this, buff); break;
-
-                //SHOP
-                case 1025:packet = new PROTOCOL_SHOP_ENTER_REQ(this, buff); break;
-                case 1027:packet = new PROTOCOL_SHOP_LEAVE_REQ(this, buff); break;
-                //case 1029:packet = new PROTOCOL_SHOP_GET_SAILLIST_REQ(this, buff); break;
-                case 1041:packet = new PROTOCOL_AUTH_SHOP_GET_GIFTLIST_REQ(this, buff); break;
-                case 1043:packet = new PROTOCOL_AUTH_SHOP_GOODS_BUY_REQ(this, buff); break;
-                case 1047:packet = new PROTOCOL_AUTH_SHOP_ITEM_AUTH_REQ(this, buff); break;
-                case 1049:packet = new PROTOCOL_INVENTORY_USE_ITEM_REQ(this, buff); break;
-                case 1053:packet = new PROTOCOL_AUTH_SHOP_AUTH_GIFT_REQ(this, buff); break;
-                case 1055:packet = new PROTOCOL_AUTH_SHOP_DELETE_ITEM_REQ(this, buff); break;
-                case 1057:packet = new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, buff); break;
-                case 1061:packet = new PROTOCOL_AUTH_USE_ITEM_CHECK_NICK_REQ(this, buff); break;
-                case 1075:packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
-                case 1076:packet = new PROTOCOL_SHOP_REPAIR_REQ(this, buff); break;
-                case 1084:packet = new PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ(this, buff); break;
-                case 1087:packet = new PROTOCOL_AUTH_SHOP_ITEM_CHANGE_DATA_REQ(this, buff); break;
-
-
-                case 1793:packet = new PROTOCOL_CS_CLIENT_ENTER_REQ(this, buff); break;
-                case 1795:packet = new PROTOCOL_CS_CLIENT_LEAVE_REQ(this, buff); break;
-                case 1797:packet = new PROTOCOL_CS_CLIENT_CLAN_LIST_REQ(this, buff); break;
-                case 1799:packet = new PROTOCOL_CS_CLIENT_CLAN_CONTEXT_REQ(this, buff); break;
-                case 1824:packet = new PROTOCOL_CS_DETAIL_INFO_REQ(this, buff); break;
-                case 1826:packet = new PROTOCOL_CS_MEMBER_CONTEXT_REQ(this, buff); break;
-                case 1828:packet = new PROTOCOL_CS_MEMBER_LIST_REQ(this, buff); break;
-                case 1830:packet = new PROTOCOL_CS_CREATE_CLAN_REQ(this, buff); break;
-                case 1832:packet = new PROTOCOL_CS_CLOSE_CLAN_REQ(this, buff); break;
-                case 1834:packet = new PROTOCOL_CS_CHECK_JOIN_AUTHORITY_ERQ(this, buff); break;
-                case 1836:packet = new PROTOCOL_CS_JOIN_REQUEST_REQ(this, buff); break;
-                case 1838:packet = new PROTOCOL_CS_CANCEL_REQUEST_REQ(this, buff); break;
-                case 1840:packet = new PROTOCOL_CS_REQUEST_CONTEXT_REQ(this, buff); break;
+                case 515:
+                    packet = new PROTOCOL_BASE_LOGOUT_REQ(this, buff); break;
+                case 517:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 520:
+                //   packet = new PROTOCOL_BASE_GAMEGUARD_REQ(this, buff); break;
+                case 530:
+                    packet = new PROTOCOL_BASE_OPTION_SAVE_REQ(this, buff); break;
+                case 534:
+                    packet = new PROTOCOL_BASE_CREATE_NICK_REQ(this, buff); break;
+                case 536:
+                    packet = new PROTOCOL_BASE_USER_LEAVE_REQ(this, buff); break;
+                case 538:
+                    packet = new PROTOCOL_BASE_USER_ENTER_REQ(this, buff); break;
+                case 540:
+                    packet = new PROTOCOL_BASE_GET_CHANNELLIST_REQ(this, buff); break;
+                case 542:
+                    packet = new PROTOCOL_BASE_SELECT_CHANNEL_REQ(this, buff); break;
+                case 544:
+                    packet = new PROTOCOL_BASE_ATTENDANCE_REQ(this, buff); break;
+                case 546:
+                    packet = new PROTOCOL_BASE_ATTENDANCE_CLEAR_ITEM_REQ(this, buff); break;
+                case 558:
+                    packet = new PROTOCOL_BASE_GET_RECORD_INFO_DB_REQ(this, buff); break;
+                case 568:
+                    packet = new PROTOCOL_BASE_QUEST_ACTIVE_IDX_CHANGE_REQ(this, buff); break;
+                case 572:
+                    packet = new PROTOCOL_BASE_QUEST_BUY_CARD_SET_REQ(this, buff); break;
+                case 574:
+                    packet = new PROTOCOL_BASE_QUEST_DELETE_CARD_SET_REQ(this, buff); break;
+                case 584:
+                    packet = new PROTOCOL_BASE_USER_TITLE_CHANGE_REQ(this, buff); break;
+                case 586:
+                    packet = new PROTOCOL_BASE_USER_TITLE_EQUIP_REQ(this, buff); break;
+                case 588:
+                    packet = new PROTOCOL_BASE_USER_TITLE_RELEASE_REQ(this, buff); break;
+                case 592:
+                    packet = new PROTOCOL_BASE_CHATTING_REQ(this, buff); break;
+                case 600:
+                    packet = new PROTOCOL_BASE_MISSION_SUCCESS_REQ(this, buff); break;
+                case 633:
+                    packet = new PROTOCOL_BASE_GET_USER_BASIC_INFO_REQ(this, buff); break;
+                case 622:
+                    packet = new PROTOCOL_BASE_DAILY_RECORD_REQ(this, buff); break;
+                case 672:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 685:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 706:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 718:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 716:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 787:
+                    packet = new PROTOCOL_AUTH_FRIEND_INVITED_REQUEST_REQ(this, buff); break;
+                case 792:
+                    packet = new PROTOCOL_AUTH_FRIEND_ACCEPT_REQ(this, buff); break;
+                case 794:
+                    packet = new PROTOCOL_AUTH_FRIEND_INVITED_REQ(this, buff); break;
+                case 796:
+                    packet = new PROTOCOL_AUTH_FRIEND_DELETE_REQ(this, buff); break;
+                case 802:
+                    packet = new PROTOCOL_AUTH_RECV_WHISPER_REQ(this, buff); break;
+                case 804:
+                    packet = new PROTOCOL_AUTH_SEND_WHISPER_REQ(this, buff); break;
+                case 809:
+                    packet = new PROTOCOL_AUTH_FIND_USER_REQ(this, buff); break;
+                case 929:
+                    packet = new PROTOCOL_MESSENGER_NOTE_SEND_REQ(this, buff); break;
+                case 931:
+                    packet = new PROTOCOL_MESSENGER_NOTE_RECEIVE_REQ(this, buff); break;
+                case 934:
+                    packet = new PROTOCOL_MESSENGER_NOTE_CHECK_READED_REQ(this, buff); break;
+                case 936:
+                    packet = new PROTOCOL_MESSENGER_NOTE_DELETE_REQ(this, buff); break;
+                case 1025:
+                    packet = new PROTOCOL_SHOP_ENTER_REQ(this, buff); break;
+                case 1027:
+                    packet = new PROTOCOL_SHOP_LEAVE_REQ(this, buff); break;
+                //case 1030:
+                //   packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                // case 1029:
+                //   packet = new PROTOCOL_SHOP_GET_SAILLIST_REQ(this, buff); break;
+                case 1041:
+                    packet = new PROTOCOL_AUTH_SHOP_GET_GIFTLIST_REQ(this, buff); break;
+                case 1043:
+                    packet = new PROTOCOL_AUTH_SHOP_GOODS_BUY_REQ(this, buff); break;
+                case 1047:
+                    packet = new PROTOCOL_AUTH_SHOP_ITEM_AUTH_REQ(this, buff); break;
+                case 1049:
+                    packet = new PROTOCOL_INVENTORY_USE_ITEM_REQ(this, buff); break;
+                case 1053:
+                    packet = new PROTOCOL_AUTH_SHOP_AUTH_GIFT_REQ(this, buff); break;
+                case 1055:
+                    packet = new PROTOCOL_AUTH_SHOP_DELETE_ITEM_REQ(this, buff); break;
+                case 1057:
+                    packet = new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, buff); break;
+                case 1061:
+                    packet = new PROTOCOL_AUTH_USE_ITEM_CHECK_NICK_REQ(this, buff); break;
+                case 1075:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;
+                case 1076:
+                    packet = new PROTOCOL_SHOP_REPAIR_REQ(this, buff); break;
+                case 1084:
+                    packet = new PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ(this, buff); break;
+                case 1087:
+                    packet = new PROTOCOL_AUTH_SHOP_ITEM_CHANGE_DATA_REQ(this, buff); break;
+                case 1793:
+                    packet = new PROTOCOL_CS_CLIENT_ENTER_REQ(this, buff); break;
+                case 1795:
+                    packet = new PROTOCOL_CS_CLIENT_LEAVE_REQ(this, buff); break;
+                case 1797:
+                    packet = new PROTOCOL_CS_CLIENT_CLAN_LIST_REQ(this, buff); break;
+                case 1799:
+                    packet = new PROTOCOL_CS_CLIENT_CLAN_CONTEXT_REQ(this, buff); break;
+                case 1824:
+                    packet = new PROTOCOL_CS_DETAIL_INFO_REQ(this, buff); break;
+                case 1826:
+                    packet = new PROTOCOL_CS_MEMBER_CONTEXT_REQ(this, buff); break;
+                case 1828:
+                    packet = new PROTOCOL_CS_MEMBER_LIST_REQ(this, buff); break;
+                case 1830:
+                    packet = new PROTOCOL_CS_CREATE_CLAN_REQ(this, buff); break;
+                case 1832:
+                    packet = new PROTOCOL_CS_CLOSE_CLAN_REQ(this, buff); break;
+                case 1834:
+                    packet = new PROTOCOL_CS_CHECK_JOIN_AUTHORITY_ERQ(this, buff); break;
+                case 1836:
+                    packet = new PROTOCOL_CS_JOIN_REQUEST_REQ(this, buff); break;
+                case 1838:
+                    packet = new PROTOCOL_CS_CANCEL_REQUEST_REQ(this, buff); break;
+                case 1840:
+                    packet = new PROTOCOL_CS_REQUEST_CONTEXT_REQ(this, buff); break;
                 case 1842:
                     packet = new PROTOCOL_CS_REQUEST_LIST_REQ(this, buff); break;
                 case 1844:
@@ -599,8 +656,10 @@ namespace PointBlank.Game
                     packet = new PROTOCOL_LOBBY_ENTER_REQ(this, buff); break;
                 case 3075:
                     packet = new PROTOCOL_LOBBY_LEAVE_REQ(this, buff); break;
+                /*case 3077:
+                    packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break;*/
                 case 3077:
-                     packet = new PROTOCOL_LOBBY_GET_ROOMLIST_REQ(this, buff); break;
+                    packet = new PROTOCOL_LOBBY_GET_ROOMLIST_REQ(this, buff); break;
                 case 3083:
                     packet = new PROTOCOL_LOBBY_GET_ROOMINFOADD_REQ(this, buff); break;
                 case 3093:
@@ -732,17 +791,16 @@ namespace PointBlank.Game
                 case 3934:
                     packet = new PROTOCOL_BASE_PACKET_EMPTY_REQ(this, buff); break; // PROTOCOL_ROOM_GET_ACEMODE_PLAYERINFO_REQ
                 case 3936:
-                    packet = new PROTOCOL_BATTLE_ACE_MODE_SLOT_REQ(this, buff); break;
+                //  packet = new PROTOCOL_ROOM_MODE_ACE_CHANGE_SLOT_REQ(this, buff); break;
                 default:
                     {
-                        Logger.error($"Unhandled Opcode: {Opcode}");
-                        Console.WriteLine(HexDump(buff));
+                        Logger.error("Opcode not found: " + Opcode);
                         break;
                     }
             }
             if (packet != null)
             {
-                Logger.LogYaz($"[C]: {packet.GetType().Name}\t\tData Length: {buff.Length}", ConsoleColor.Cyan);
+                Logger.Cyan($"[C]: {packet.GetType().Name}\t\tData Length: {buff.Length}");
                 new Thread(packet.run).Start();
             }
         }

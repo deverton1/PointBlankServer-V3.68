@@ -16,33 +16,60 @@ namespace PointBlank.Game
         {
             while (true)
             {
-                Console.Title = "Point Blank - Game [Users: " + GameManager._socketList.Count + " Online: " + ServersXml.getServer(GameConfig.serverId)._LastCount + " Used RAM: " + (GC.GetTotalMemory(true) / 1024) + " KB]";
-                if (DateTime.Now.ToString("HH:mm") == "00:00")
+                try
                 {
-                    foreach (Account Player in AccountManager._accounts.Values)
+                    // Verifica se GameManager._socketList existe
+                    int onlineCount = GameManager._socketList?.Count ?? 0;
+
+                    // Verifica se o servidor existe
+                    var server = ServersXml.getServer(GameConfig.serverId);
+                    int serverOnlineCount = server?._LastCount ?? 0;
+
+                    Console.Title = $"Point Blank - Game [Users: {onlineCount} Online: {serverOnlineCount} Used RAM: {GC.GetTotalMemory(true) / 1024} KB]";
+
+                    if (DateTime.Now.ToString("HH:mm") == "00:00")
                     {
-                        if (Player != null)
+                        // Verifica se AccountManager._accounts existe
+                        if (AccountManager._accounts != null)
                         {
-                            Player.Daily = new PlayerDailyRecord();
+                            foreach (Account Player in AccountManager._accounts.Values)
+                            {
+                                if (Player != null)
+                                {
+                                    Player.Daily = new PlayerDailyRecord();
+                                }
+                            }
                         }
-                    }
-                    foreach (GameClient Client in GameManager._socketList.Values)
-                    {
-                        if (Client != null && Client._player != null && Client._player._isOnline)
+
+                        // Verifica se GameManager._socketList existe
+                        if (GameManager._socketList != null)
                         {
-                            Client._player.Daily = new PlayerDailyRecord();
+                            foreach (GameClient Client in GameManager._socketList.Values)
+                            {
+                                if (Client != null && Client._player != null && Client._player._isOnline)
+                                {
+                                    Client._player.Daily = new PlayerDailyRecord();
+                                }
+                            }
                         }
+
+                        // Atualizações no banco de dados
+                        ComDiv.updateDB("player_dailyrecord", "total", 0);
+                        ComDiv.updateDB("player_dailyrecord", "wins", 0);
+                        ComDiv.updateDB("player_dailyrecord", "loses", 0);
+                        ComDiv.updateDB("player_dailyrecord", "draws", 0);
+                        ComDiv.updateDB("player_dailyrecord", "kills", 0);
+                        ComDiv.updateDB("player_dailyrecord", "deaths", 0);
+                        ComDiv.updateDB("player_dailyrecord", "headshots", 0);
+                        ComDiv.updateDB("player_dailyrecord", "point", 0);
+                        ComDiv.updateDB("player_dailyrecord", "exp", 0);
                     }
-                    ComDiv.updateDB("player_dailyrecord", "total", 0);
-                    ComDiv.updateDB("player_dailyrecord", "wins", 0);
-                    ComDiv.updateDB("player_dailyrecord", "loses", 0);
-                    ComDiv.updateDB("player_dailyrecord", "draws", 0);
-                    ComDiv.updateDB("player_dailyrecord", "kills", 0);
-                    ComDiv.updateDB("player_dailyrecord", "deaths", 0);
-                    ComDiv.updateDB("player_dailyrecord", "headshots", 0);
-                    ComDiv.updateDB("player_dailyrecord", "point", 0);
-                    ComDiv.updateDB("player_dailyrecord", "exp", 0);
                 }
+                catch (Exception ex)
+                {
+                    Logger.error(ex.ToString());
+                }
+
                 await Task.Delay(1000);
             }
         }

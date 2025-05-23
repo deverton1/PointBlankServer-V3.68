@@ -4,6 +4,7 @@ using PointBlank.Battle.Data.Enums;
 using PointBlank.Battle.Data.Models;
 using PointBlank.Battle.Data.Models.Event;
 
+
 namespace PointBlank.Battle.Network.Actions.Event
 {
     public class GetWeaponForClient

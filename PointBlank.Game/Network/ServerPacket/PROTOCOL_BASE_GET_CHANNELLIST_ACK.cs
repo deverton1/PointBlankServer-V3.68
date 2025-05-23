@@ -1,6 +1,7 @@
 ﻿using Npgsql;
 using PointBlank.Core.Network;
 using PointBlank.Core.Sql;
+using PointBlank.Game.Data.Configs;
 using PointBlank.Game.Data.Model;
 using System.Collections.Generic;
 using System.Data;
@@ -27,6 +28,23 @@ namespace PointBlank.Game.Network.ServerPacket
             for (int i = 0; i < Channels.Count; i++)
             {
                 Channel Channel = Channels[i];
+                writeH((ushort)Channel._players.Count);
+            }
+            writeH((ushort)GameConfig.maxChannelPlayers);
+            writeH((ushort)GameConfig.maxChannelPlayers);
+            writeC((byte)Channels.Count);
+            writeD(ServerId);
+        }
+        /*public override void write()
+        {
+            writeH(541);
+            writeH(4);
+            writeH(0);
+            writeD(1);
+            writeC((byte)Channels.Count);
+            for (int i = 0; i < Channels.Count; i++)
+            {
+                Channel Channel = Channels[i];
                 using (NpgsqlConnection connection = SqlConnection.getInstance().conn())
                 {
                     NpgsqlCommand command = connection.CreateCommand();
@@ -48,6 +66,6 @@ namespace PointBlank.Game.Network.ServerPacket
             }
             writeH(100);
             writeC((byte)Channels.Count);
-        }
+        }*/
     }
 }

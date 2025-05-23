@@ -15,7 +15,18 @@ namespace PointBlank.Auth
         {
             while (true)
             {
-                Console.Title = "Point Blank - Auth [Users: " + AuthManager._socketList.Count + " Online: " + ServersXml.getServer(0)._LastCount + " Used RAM: " + (GC.GetTotalMemory(true) / 1024) + " KB]";
+                try
+                {
+                    string users = AuthManager._socketList?.Count.ToString() ?? "0";
+                    string serverInfo = ServersXml.getServer(0)?._LastCount.ToString() ?? "0";
+
+                    Console.Title = $"Point Blank - Auth [Users: {users} Online: {serverInfo} Used RAM: {(GC.GetTotalMemory(true) / 1024)} KB]";
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Erro ao atualizar título: {ex.Message}");
+                }
+
                 await Task.Delay(1000);
             }
         }

@@ -22,7 +22,7 @@ namespace PointBlank.Core.Managers.Server
                     NpgsqlCommand command = connection.CreateCommand();
                     connection.Open();
                     command.Parameters.AddWithValue("@cfg", configId);
-                    command.CommandText = "SELECT * FROM server_settings WHERE config_id=@cfg";
+                    command.CommandText = "SELECT * FROM server_settings WHERE config_id=@cfg;";
                     command.CommandType = CommandType.Text;
                     NpgsqlDataReader data = command.ExecuteReader();
                     while (data.Read())

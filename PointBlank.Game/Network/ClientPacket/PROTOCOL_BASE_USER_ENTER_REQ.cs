@@ -41,6 +41,7 @@ namespace PointBlank.Game.Network.ClientPacket
                 }
                 else
                 {
+                    Logger.debug("Token: " + Token);
                     Account p = AccountManager.getAccountDB(Token, 0, 0);
                     if (p != null && p._status.serverId == 0)
                     {

@@ -1,0 +1,139 @@
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\ALLDebug\PointBlank.Battle.exe
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Paul\Desktop\Point-Blank-Revolution-main\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Paul\Desktop\Kaybo2\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Paul\Desktop\Kaybo2\ALLDebug\PointBlank.Battle.exe
+C:\Users\Paul\Desktop\Kaybo2\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CopyComplete
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Paul\Desktop\Kaybo2\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Administrator\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.pdb
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\peaun\Desktop\PAVEL 3.30 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.pdb
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\peaun\Desktop\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe.config
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.pdb
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+D:\PB\3.68\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.exe
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Ryzuk\Downloads\Compressed\PAVEL 3.68 - CLEAN NOT EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\ALLDebug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\PAVEL 3.68 - CLEAN EDITED\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\ALLDebug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\ALLDebug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ check\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\ALLDebug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\ALLDebug\PointBlank.Battle.pdb
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\Ryzuk\OneDrive\Documents\Visual Studio 2022\Project\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.1 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\ALLDebug\PointBlank.Battle.exe
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\ALLDebug\PointBlank.Battle.pdb
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\XEANADEV\Desktop\Point Blank Server 3.68 MithG + zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\ALLDebug\PointBlank.Battle.exe
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\ALLDebug\PointBlank.Battle.pdb
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ Patch 0.0.0.2 Y2025\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\ALLDebug\PointBlank.Battle.exe.config
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\ALLDebug\PointBlank.Battle.exe
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\ALLDebug\PointBlank.Battle.pdb
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.AssemblyReference.cache
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.SuggestedBindingRedirects.cache
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe.config
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.csproj.CoreCompileInputs.cache
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBla.2F2BB21C.Up2Date
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.exe
+C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Battle\obj\Debug\PointBlank.Battle.pdb

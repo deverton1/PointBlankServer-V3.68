@@ -22,6 +22,22 @@ namespace PointBlank.Auth.Network.ServerPacket
         public override void write()
         {
             writeH(541);
+            writeH(0);
+            writeC(0);
+            writeC((byte)Channels.Count);
+            for (int i = 0; i < Channels.Count; i++)
+            {
+                Channel Channel = Channels[i];
+                writeH((ushort)Channel._players);
+            }
+            writeH((ushort)AuthConfig.maxChannelPlayers);
+            writeH((ushort)AuthConfig.maxChannelPlayers);
+            writeC((byte)Channels.Count);
+            writeD(ServerId);
+        }
+        /*public override void write()
+        {
+            writeH(541);
             writeH(4);
             writeH(0);
             writeD(1);
@@ -51,6 +67,6 @@ namespace PointBlank.Auth.Network.ServerPacket
             }
             writeH((ushort)AuthConfig.maxChannelPlayers);
             writeC((byte)Channels.Count);
-        }
+        }*/
     }
 }

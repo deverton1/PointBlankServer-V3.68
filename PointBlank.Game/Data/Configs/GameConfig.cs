@@ -18,10 +18,10 @@ namespace PointBlank.Game.Data.Configs
         {
             ConfigFile configFileDatabase = new ConfigFile("Config/Database.ini");
             Config.dbHost = configFileDatabase.readString("Host", "localhost");
-            Config.dbName = configFileDatabase.readString("Name", "");
-            Config.dbUser = configFileDatabase.readString("User", "root");
-            Config.dbPass = configFileDatabase.readString("Pass", "");
-            Config.dbPort = configFileDatabase.readInt32("Port", 0);
+            Config.dbName = configFileDatabase.readString("Name", "pointblank24");
+            Config.dbUser = configFileDatabase.readString("User", "postgres");
+            Config.dbPass = configFileDatabase.readString("Pass", "1234");
+            Config.dbPort = configFileDatabase.readInt32("Port", 5432);
             Config.EncodeText = Encoding.GetEncoding(configFileDatabase.readInt32("EncodingPage", 0));
 
 

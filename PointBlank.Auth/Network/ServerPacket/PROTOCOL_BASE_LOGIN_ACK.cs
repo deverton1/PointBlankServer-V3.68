@@ -1,5 +1,5 @@
-﻿using PointBlank.Core.Models.Enums;
-using PointBlank.Core.Network;
+﻿using PointBlank.Core.Network;
+using PointBlank.Core.Models.Enums;
 
 namespace PointBlank.Auth.Network.ServerPacket
 {
@@ -33,17 +33,19 @@ namespace PointBlank.Auth.Network.ServerPacket
         public override void write()
         {
             writeH(259);
-            writeB(new byte[36]);
+            writeB(new byte[14]);
 
             if (_result == 0)
             {
-
-                writeC((byte)_login.Length);
-                writeS(_login, _login.Length);
-                writeC(0);
+                writeH(30590);  //?
+                writeD(81917926); ////81917926 แคลน  91917926
+                writeB(new byte[16]);
+                writeC(3);
+                writeD(3158579);
                 writeC((byte)_login.Length);
                 writeS(_login, _login.Length);
                 writeQ(_pId);
+                writeB(new byte[6]);
             }
             else
             {
@@ -56,7 +58,6 @@ namespace PointBlank.Auth.Network.ServerPacket
             }
 
             writeD(_result);
-
         }
     }
 }

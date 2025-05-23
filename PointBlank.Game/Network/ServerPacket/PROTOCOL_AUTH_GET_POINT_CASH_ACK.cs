@@ -4,25 +4,25 @@ namespace PointBlank.Game.Network.ServerPacket
 {
     public class PROTOCOL_AUTH_GET_POINT_CASH_ACK : SendPacket
     {
-        private int erro, gold, cash, tags;
+        private int _erro, _gold, _cash, _tag;
 
-        public PROTOCOL_AUTH_GET_POINT_CASH_ACK(int erro, int gold = 0, int cash = 0, int tags = 0)
+        public PROTOCOL_AUTH_GET_POINT_CASH_ACK(int erro, int gold = 0, int cash = 0, int tag = 0)
         {
-            this.erro = erro;
-            this.gold = gold;
-            this.cash = cash;
-            this.tags = tags;
+            this._erro = erro;
+            this._gold = gold;
+            this._cash = cash;
+            this._tag = tag;
         }
 
         public override void write()
         {
             writeH(1058);
-            writeD(erro);
-            if (erro >= 0)
+            writeD(_erro);
+            if (_erro >= 0)
             {
-                writeD(gold);
-                writeD(cash);
-                writeD(777);//tags
+                writeD(_gold);
+                writeD(_cash);
+                writeD(_tag);
             }
             writeD(0);
         }

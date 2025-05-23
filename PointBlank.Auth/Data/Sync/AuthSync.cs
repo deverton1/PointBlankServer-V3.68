@@ -49,9 +49,9 @@ namespace PointBlank.Auth.Data.Sync
             {
                 udp.BeginReceive(new AsyncCallback(recv), null);
             }
-            catch// (Exception ex)
+            catch (Exception ex)
             {
-                //Logger.warning(ex.ToString());
+                Logger.warning(ex.ToString());
                 //close(false, 0);
             }
         }
@@ -172,7 +172,7 @@ namespace PointBlank.Auth.Data.Sync
                 Logger.warning("AuthSync Configuration (Database) Refills.; Date: '" + DateTime.Now.ToString("dd/MM/yy HH:mm") + "'");
                 Logger.LogCMD("Configuration (Database) Refills.; Date: '" + DateTime.Now.ToString("dd/MM/yy HH:mm") + "'");
             }
-            else if(opcode == 33)
+            else if (opcode == 33)
             {
                 int channelId = p.readD();
                 int count = p.readD();
@@ -184,7 +184,7 @@ namespace PointBlank.Auth.Data.Sync
                 }
                 else Logger.warning("Channel not founded");
             }
-            else if(opcode == 34)
+            else if (opcode == 34)
             {
                 int type = p.readC();
                 switch (type)

@@ -33,13 +33,15 @@ namespace PointBlank.Game
             Logger.StartedFor = "Game";
             Logger.checkDirectorys();
             Console.Clear();
-            Logger.LogYaz(@"
- __  __ _ _____ _      ____
-|  \/  (_)_   _| |__  / ___|
-| |\/| | | | | | '_ \| |  _
-| |  | | | | | | | | | |_| |
-|_|  |_|_| |_| |_| |_|\____|", ConsoleColor.Cyan);
-            Logger.LogYaz("[Release Server: var 3.68]", ConsoleColor.Cyan);
+            Logger.Cyan(@"________________________________________________________________________________");
+            Logger.Cyan(@"          ____                       _       _____  __     _______ _   _");
+            Logger.Cyan(@"      ___|  _ \ _   _ _______  _ __ (_)_  __|__  /  \ \   / /___  / | / |");
+            Logger.Cyan(@"     |_  / |_) | | | |_  / _ \| '_ \| \ \/ /  / /____\ \ / /   / /| | | |");
+            Logger.Cyan(@"      / /|  _ <| |_| |/ / (_) | | | | |>  <  / /|_____\ V /   / /_| |_| |");
+            Logger.Cyan(@"     /___|_| \_\\__, /___\___/|_| |_|_/_/\_\/____|     \_/   /_/(_)_(_)_|");
+            Logger.Cyan(@"                |___/");
+            Logger.Cyan(@"_______________________________ " + Date + " _______________________________");
+            Logger.Cyan("[Release Server: version 3.68]");
             GameConfig.Load();
             BasicInventoryXml.Load();
             ServerConfigSyncer.GenerateConfig(GameConfig.configId);

@@ -3,6 +3,7 @@ using PointBlank.Battle.Data.Items;
 using PointBlank.Battle.Data.Sync;
 using PointBlank.Battle.Data.Xml;
 using PointBlank.Battle.Network;
+using PointBlank.Battle;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -11,21 +12,23 @@ using System.Threading.Tasks;
 
 namespace PointBlank.Battle
 {
-    internal class Program
+    class Program
     {
-        protected static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            //string Date = ComDiv.GetLinkerTime(Assembly.GetExecutingAssembly(), null).ToString("dd/MM/yyyy HH:mm");
             BattleConfig.Load();
             Logger.checkDirectory();
             Console.Clear();
-            Logger.LogYaz(@"
- __  __ _ _____ _      ____
-|  \/  (_)_   _| |__  / ___|
-| |\/| | | | | | '_ \| |  _
-| |  | | | | | | | | | |_| |
-|_|  |_|_| |_| |_| |_|\____|", ConsoleColor.Cyan);
-            Logger.LogYaz("[Release Server: var 3.68]", ConsoleColor.Cyan);
-
+            Logger.Cyan(@"________________________________________________________________________________");
+            Logger.Cyan(@"          ____                       _       _____  __     _______ _   _");
+            Logger.Cyan(@"      ___|  _ \ _   _ _______  _ __ (_)_  __|__  /  \ \   / /___  / | / |");
+            Logger.Cyan(@"     |_  / |_) | | | |_  / _ \| '_ \| \ \/ /  / /____\ \ / /   / /| | | |");
+            Logger.Cyan(@"      / /|  _ <| |_| |/ / (_) | | | | |>  <  / /|_____\ V /   / /_| |_| |");
+            Logger.Cyan(@"     /___|_| \_\\__, /___\___/|_| |_|_/_/\_\/____|     \_/   /_/(_)_(_)_|");
+            Logger.Cyan(@"                |___/");
+            Logger.Cyan(@"________________________________________________________________________________");
+            Logger.Cyan("[Release Server: version 3.68]");
             MapXml.Load();
             CharaXml.Load();
             MeleeExceptionsXml.Load();

@@ -16,8 +16,14 @@ namespace PointBlank.Auth.Network.ServerPacket
 
         public override void write()
         {
+            writeH(694); //693
+            writeB(new byte[888]);
+        }
+
+        /*public override void write()
+        {
             writeH(692); //692
             writeB(new byte[888]); //888
-        }
+        }*/
     }
 }

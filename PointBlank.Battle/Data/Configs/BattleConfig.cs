@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using Npgsql;
 
 namespace PointBlank.Battle.Data.Configs
 {
@@ -15,10 +16,10 @@ namespace PointBlank.Battle.Data.Configs
         {
             ConfigFile configFileDatabase = new ConfigFile("Config/Database.ini");
             dbHost = configFileDatabase.readString("Host", "localhost");
-            dbName = configFileDatabase.readString("Name", "");
-            dbUser = configFileDatabase.readString("User", "root");
-            dbPass = configFileDatabase.readString("Pass", "");
-            dbPort = configFileDatabase.readInt32("Port", 0);
+            dbName = configFileDatabase.readString("Name", "pointblank24");
+            dbUser = configFileDatabase.readString("User", "postgres");
+            dbPass = configFileDatabase.readString("Pass", "1234");
+            dbPort = configFileDatabase.readInt32("Port", 5432);
             EncodeText = Encoding.GetEncoding(configFileDatabase.readInt32("EncodingPage", 0));
 
             ConfigFile configFile = new ConfigFile("Config/Battle.ini");

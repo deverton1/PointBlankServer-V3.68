@@ -30,7 +30,7 @@ namespace PointBlank.Game.Data.Model
         public IPAddress PublicIP;
         public CouponEffects effects;
         public PlayerSession Session;
-        public int Sight, FindClanId, LastRoomPage, LastPlayerPage, tourneyLevel, channelId = -1, clanAccess, clanDate, _exp, _gp, clanId, _money, brooch, insignia, medal, blue_order, _slotId = -1, name_color, _rank, pc_cafe, matchSlot = -1, age;
+        public int Sight, FindClanId, LastRoomPage, LastPlayerPage, tourneyLevel, channelId = -1, clanAccess, clanDate, _exp, _gp, clanId, _money, _tag, brooch, insignia, medal, blue_order, _slotId = -1, name_color, _rank, pc_cafe, matchSlot = -1, age;
         public PlayerEquipedItems _equip = new PlayerEquipedItems();
         public PlayerInventory _inventory = new PlayerInventory();
         public List<Character> Characters = new List<Character>();

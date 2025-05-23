@@ -1,15 +1,13 @@
-﻿using PointBlank.Auth.Data.Managers;
-using PointBlank.Auth.Data.Model;
-using PointBlank.Core.Managers;
+﻿using System.Collections.Generic;
+using PointBlank.Auth;
 using PointBlank.Core.Managers.Events;
 using PointBlank.Core.Managers.Server;
-using PointBlank.Core.Models.Account;
 using PointBlank.Core.Models.Account.Clan;
 using PointBlank.Core.Models.Account.Players;
-using PointBlank.Core.Models.Enums;
 using PointBlank.Core.Models.Servers;
 using PointBlank.Core.Network;
-using PointBlank.Core.Xml;
+using PointBlank.Auth.Data.Model;
+using PointBlank.Auth.Data.Managers;
 using System;
 
 namespace PointBlank.Auth.Network.ServerPacket
@@ -19,70 +17,18 @@ namespace PointBlank.Auth.Network.ServerPacket
         private Account Player;
         private Clan Clan;
         private uint Error;
-        //private bool Xmas;
-        private byte[] Flag = new byte[4];
 
         public PROTOCOL_BASE_GET_USER_INFO_ACK(Account Player)
         {
             this.Player = Player;
-            if (Player != null && Player._inventory._items.Count == 0)
+            if (Player != null)
             {
                 Clan = ClanManager.getClanDB(Player.clan_id, 1);
-                Player.LoadInventory();
-                Player.LoadMissionList();
-                Player.DiscountPlayerItems();
             }
             else
             {
                 Error = 0x80000000;
             }
-        }
-
-        private void CheckGameEvents(EventVisitModel evVisit)
-        {
-            long dateNow = long.Parse(DateTime.Now.ToString("yyMMddHHmm"));
-            PlayerEvent pev = Player._event;
-            if (pev != null)
-            {
-                QuestModel evQuest = EventQuestSyncer.getRunningEvent();
-                if (evQuest != null)
-                {
-                    long date = pev.LastQuestDate, finish = pev.LastQuestFinish;
-                    if (pev.LastQuestDate < evQuest.startDate)
-                    {
-                        pev.LastQuestDate = 0;
-                        pev.LastQuestFinish = 0;
-                    }
-                    if (pev.LastQuestFinish == 0)
-                    {
-                        Player._mission.mission4 = 13; // MissionId
-                        if (pev.LastQuestDate == 0)
-                        {
-                            pev.LastQuestDate = (uint)dateNow;
-                        }
-                    }
-                    if (pev.LastQuestDate != date || pev.LastQuestFinish != finish)
-                    {
-                        EventQuestSyncer.ResetPlayerEvent(Player.player_id, pev);
-                    }
-                }
-                EventLoginModel evLogin = EventLoginSyncer.getRunningEvent();
-                if (evLogin != null && !(evLogin.startDate < pev.LastLoginDate && pev.LastLoginDate < evLogin.endDate))
-                {
-                    ItemsModel item = new ItemsModel(evLogin._rewardId, evLogin._category, "Login Event", 1, evLogin._count);
-                    PlayerManager.tryCreateItem(item, Player._inventory, Player.player_id);
-                    ComDiv.updateDB("player_events", "last_login_date", dateNow, "player_id", Player.player_id);
-                }
-                if (evVisit != null && pev.LastVisitEventId != evVisit.id)
-                {
-                    pev.LastVisitEventId = evVisit.id;
-                    pev.LastVisitSequence1 = 0;
-                    pev.LastVisitSequence2 = 0;
-                    pev.NextVisitDate = 0;
-                    EventVisitSyncer.ResetPlayerEvent(Player.player_id, evVisit.id);
-                }
-            }
-            ComDiv.updateDB("accounts", "last_login", dateNow, "player_id", Player.player_id);
         }
 
         public override void write()
@@ -91,39 +37,41 @@ namespace PointBlank.Auth.Network.ServerPacket
             EventVisitModel ev = EventVisitSyncer.getRunningEvent();
 
             PlayerEvent playerEvent = this.Player._event;
+            bool showEvents = (ev != null && (playerEvent.LastVisitSequence1 < ev.checks && playerEvent.NextVisitDate <= int.Parse(DateTime.Now.ToString("yyMMdd")) || playerEvent.LastVisitSequence2 < ev.checks && playerEvent.LastVisitSequence2 != playerEvent.LastVisitSequence1));
 
             writeH(525);
             writeH(0);
             writeD(Error);
-            if (Error > 0)
+            if (Error != 0)
+            {
                 return;
-
-            writeB(new byte[55]);
+            }
+            writeB(new byte[55]); //secret
             writeC((byte)Player.Characters.Count);
             writeH(210);
-            writeC((byte)QuickStartXml.QucikStarts.Count);
-            for (int i = 0; i < QuickStartXml.QucikStarts.Count; i++)
+            writeC((byte)Player.Quickstarts.Count);
+            for (int i = 0; i < Player.Quickstarts.Count; i++)
             {
-                QuickStart Quick = QuickStartXml.QucikStarts[i];
+                QuickStart Quick = Player.Quickstarts[i];
                 writeC((byte)Quick.MapId);
                 writeC((byte)Quick.Rule);
                 writeC((byte)Quick.StageOptions);
                 writeC((byte)Quick.Type);
             }
-            writeB(new byte[34]); //00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-            writeC(4); //04
-            writeD(0); //00 00 00 00
-            writeD(0); //00 00 00 00
-            writeD(0); //00 00 00 00
-            writeD(0); //00 00 00 00
-            writeD(0); //00 00 00 00
-            writeD(Player._titles.Slots); //01 00 00 00
-            writeC(3); //03 
-            writeC((byte)Player._titles.Equiped1); //00
-            writeC((byte)Player._titles.Equiped2); //00
-            writeC((byte)Player._titles.Equiped3); //00
-            writeQ(Player._titles.Flags); //00 00 00 00 00 00 00 00 
-            writeC(160); //A0
+            writeB(new byte[34]);
+            writeC(4);//only 4? what is it?
+            writeD(0);
+            writeD(0);
+            writeD(0);
+            writeD(0);
+            writeD(0);
+            writeD(Player._titles.Slots);
+            writeC(3); //Player Equiped titles
+            writeC((byte)Player._titles.Equiped1);
+            writeC((byte)Player._titles.Equiped2);
+            writeC((byte)Player._titles.Equiped3);
+            writeQ(Player._titles.Flags);
+            writeC(160);
             writeB(Player._mission.list1);
             writeB(Player._mission.list2);
             writeB(Player._mission.list3);
@@ -137,16 +85,16 @@ namespace PointBlank.Auth.Network.ServerPacket
             writeB(ComDiv.getCardFlags(Player._mission.mission2, Player._mission.list2));
             writeB(ComDiv.getCardFlags(Player._mission.mission3, Player._mission.list3));
             writeB(ComDiv.getCardFlags(Player._mission.mission4, Player._mission.list4));
-            writeC((byte)Player._mission.mission1); //01
-            writeC((byte)Player._mission.mission2); //00
-            writeC((byte)Player._mission.mission3); //00
-            writeC((byte)Player._mission.mission4); //00
-            writeD(Player.blue_order); //E7 03 00 00
-            writeD(Player.medal); //E7 03 00 00
-            writeD(Player.insignia); //E7 03 00 00
-            writeD(Player.brooch); //E7 03 00 00
+            writeC((byte)Player._mission.mission1);
+            writeC((byte)Player._mission.mission2);
+            writeC((byte)Player._mission.mission3);
+            writeC((byte)Player._mission.mission4);
+            writeD(Player.blue_order);
+            writeD(Player.medal);
+            writeD(Player.insignia);
+            writeD(Player.brooch);
             writeB(new byte[11]);
-            writeIP("127.0.0.1"); //adapter loopback
+            writeIP("127.0.0.1"); //public ip
             writeD(uint.Parse(DateTime.Now.ToString("yyMMddHHmm")));
             if (Player.Characters.Count == 0)
             {
@@ -168,12 +116,12 @@ namespace PointBlank.Auth.Network.ServerPacket
                 writeD((uint)Player._inventory.getItem(Player._equip._dino)._objId);
             }
 
-            writeD(0);
-            writeD(0);
-            writeD(0);
-            writeD(0);
+            writeD(0); //secret
+            writeD(0); //secret objid
+            writeD(0); //secret
+            writeD(0); //secret objid
 
-            writeD(0); // flags
+            writeD(0); //flags
 
             writeD(0);
             writeD(0);
@@ -181,10 +129,9 @@ namespace PointBlank.Auth.Network.ServerPacket
             writeD(0);
             writeD(0);
             writeC(0);
-
-            writeC((byte)Player.name_color);
-            writeD(Player._bonus.fakeRank);
-            writeD(Player._bonus.fakeRank);
+            writeC((byte)Player.name_color);//+
+            writeD(Player._bonus.fakeRank);//+
+            writeD(Player._bonus.fakeRank);//++
             writeUnicode(Player._bonus.fakeNick, 66);
             writeH((short)Player._bonus.sightColor);
             writeH((short)Player._bonus.muzzle);
@@ -200,7 +147,7 @@ namespace PointBlank.Auth.Network.ServerPacket
             writeD(Player._statistic.totalkills_count);
             writeD(Player._statistic.escapes);
             writeD(Player._statistic.assist);
-            writeD(Player._statistic.mvp); // ?
+            writeD(667); //mvp
             writeD(Player._statistic.fights);
             writeD(Player._statistic.fights_win);
             writeD(Player._statistic.fights_lost);
@@ -212,17 +159,17 @@ namespace PointBlank.Auth.Network.ServerPacket
             writeD(Player._statistic.totalkills_count);
             writeD(Player._statistic.escapes);
             writeD(Player._statistic.assist);
-            writeD(Player._statistic.mvp);
-            writeUnicode(Player.player_name, 66);
+            writeD(667); //mvp
+            writeUnicode(Player.player_name, 66);//731
             writeD(Player._rank);
             writeD(Player._rank);
             writeD(Player._gp);
-            writeD(Player._exp);
+            writeD(Player._exp); //624 byte rus 3.16 -621
             writeB(new byte[15]);
-            writeD(1024); //tags
+            writeD(777); //tags
             writeD(0);
             writeH(0);
-            writeH(0);
+            writeH(0); //secret
             writeD(Player._money);
             writeD(Clan._id);
             writeD(Player.clanAccess);
@@ -234,38 +181,7 @@ namespace PointBlank.Auth.Network.ServerPacket
             writeC((byte)Clan.getClanUnit());
             writeD(Clan._logo);
             writeC((byte)Clan._name_color);
-            writeC((byte)(AuthManager.Config.BloodEnable ? Player.age : 27)); //29
-        }
-
-        private void WriteDormantEvent()
-        {
-            writeB(new byte[375]);
-        }
-
-        private void WriteVisitEvent(EventVisitModel ev)
-        {
-            PlayerEvent pev = Player._event;
-            if (ev != null && (pev.LastVisitSequence1 < ev.checks && pev.NextVisitDate <= int.Parse(DateTime.Now.ToString("yyMMdd")) || pev.LastVisitSequence2 < ev.checks && pev.LastVisitSequence2 != pev.LastVisitSequence1))
-            {
-                writeUnicode(ev.title, 70);
-                writeC((byte)pev.LastVisitSequence1);
-                writeC((byte)ev.checks);
-                writeD(ev.id);
-                writeD(ev.startDate);
-                writeD(ev.endDate);
-                writeB(new byte[12]);
-                for (int i = 0; i < 32; i++)
-                {
-                    VisitBox box = ev.box[i];
-                    writeC((byte)box.RewardCount);
-                    writeD(box.reward1.good_id);
-                    writeD(box.reward2.good_id);
-                }
-            }
-            else
-            {
-                writeB(new byte[375]);
-            }
+            writeC(41); //player_age
         }
     }
 }

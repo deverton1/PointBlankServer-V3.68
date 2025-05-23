@@ -1,5 +1,8 @@
-﻿using PointBlank.Core.Models.Account.Players;
+﻿using Org.BouncyCastle.Asn1.Mozilla;
+using PointBlank.Core;
+using PointBlank.Core.Models.Account.Players;
 using PointBlank.Core.Network;
+using System;
 
 namespace PointBlank.Auth.Network.ServerPacket
 {
@@ -21,36 +24,30 @@ namespace PointBlank.Auth.Network.ServerPacket
             this.error = error;
         }
 
+        // Fixed by DavaJ
         public override void write()
         {
             writeH(529);
             writeH(0);
             writeD(error);
             if (error < 0)
-            {
                 return;
-            }
+
             if (isValid)
             {
-                writeH(0); //NA
-                writeH((ushort)(c.macro_5.Length));
-                writeUnicode(c.macro_5, false);
-                writeH((ushort)(c.macro_4.Length));
-                writeUnicode(c.macro_4, false);
-                writeH((ushort)(c.macro_3.Length));
-                writeUnicode(c.macro_3, false);
-                writeH((ushort)(c.macro_2.Length));
-                writeUnicode(c.macro_2, false);
-                writeH((ushort)(c.macro_1.Length));
-                writeUnicode(c.macro_1, false);
-                writeC(49);
-                writeB(new byte[] { 0x00, 0x39, 0xF8, 0x10, 0x00 });
+                writeB(new byte[12]);
+                writeH(49);
+                writeB(new byte[] { 0x39, 0xF8, 0x10, 0x00 });
                 writeB(c.keys);
-                writeB(new byte[] { 0x00, 0x39, 0xF8, 0x10, 0x00 });
                 writeH((short)c.blood);
                 writeC((byte)c.sight);
                 writeC((byte)c.hand);
                 writeD(c.config);
+                writeB(new byte[5]
+                {
+                    0x00, 0x37,
+                    0x00, 0x00, 0x00
+                });
                 writeD(c.audio_enable);
                 writeH(0);
                 writeC((byte)c.audio1);
@@ -63,12 +60,14 @@ namespace PointBlank.Auth.Network.ServerPacket
                 writeC((byte)c.msgConvite);
                 writeC((byte)c.chatSussurro);
                 writeD(c.macro);
+
             }
             else
             {
-                //writeB(new byte[39]);
-                //writeC(!isValid);
+                writeB(new byte[39]);
+                writeC(!isValid);
             }
+
         }
     }
 }

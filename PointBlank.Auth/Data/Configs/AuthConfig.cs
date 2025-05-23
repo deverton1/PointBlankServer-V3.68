@@ -10,7 +10,7 @@ namespace PointBlank.Auth.Data.Configs
     {
         public static string authIp;
         public static bool isTestMode, Outpost, AUTO_ACCOUNTS, debugMode, ClearToken;
-        public static int syncPort, configId, maxNickSize, minNickSize, minTokenSize, authPort, serverId, maxChannelPlayers;
+        public static int syncPort, configId, maxNickSize, minNickSize, minTokenSize, authPort, serverId, maxChannelPlayers, STR_LOBBY_BACKGROUNG;
         public static ulong LauncherKey;
         public static List<ClientLocale> GameLocales;
 
@@ -18,10 +18,10 @@ namespace PointBlank.Auth.Data.Configs
         {
             ConfigFile configFileDatabase = new ConfigFile("Config/Database.ini");
             Config.dbHost = configFileDatabase.readString("Host", "localhost");
-            Config.dbName = configFileDatabase.readString("Name", "");
-            Config.dbUser = configFileDatabase.readString("User", "root");
-            Config.dbPass = configFileDatabase.readString("Pass", "");
-            Config.dbPort = configFileDatabase.readInt32("Port", 0);
+            Config.dbName = configFileDatabase.readString("Name", "pointblank24");
+            Config.dbUser = configFileDatabase.readString("User", "postgres");
+            Config.dbPass = configFileDatabase.readString("Pass", "1234");
+            Config.dbPort = configFileDatabase.readInt32("Port", 5432);
             Config.EncodeText = Encoding.GetEncoding(configFileDatabase.readInt32("EncodingPage", 0));
 
             ConfigFile configFile = new ConfigFile("Config/Auth.ini");
@@ -40,6 +40,7 @@ namespace PointBlank.Auth.Data.Configs
             maxNickSize = configFile.readInt32("MaxNickSize", 0);
             minTokenSize = configFile.readInt32("MinTokenSize", 0);
             ClearToken = configFile.readBoolean("ClearToken", true);
+            AuthConfig.STR_LOBBY_BACKGROUNG = configFile.readInt32("LobbyBackground", 0); // Yeni aya
             GameLocales = new List<ClientLocale>();
             string strLocales = configFile.readString("GameLocales", "None");
             foreach (string splitedLocale in strLocales.Split(','))

@@ -4,10 +4,24 @@ namespace PointBlank.Game.Network.ServerPacket
 {
     public class PROTOCOL_LOBBY_GET_ROOMLIST_ACK : SendPacket
     {
-        private int RoomPage, PlayerPage, AllPlayers, AllRooms, CountRoom, CountPlayer;
-        private byte[] Rooms, Players;
+        private int RoomPage;
+        private int PlayerPage;
+        private int AllPlayers;
+        private int AllRooms;
+        private int CountRoom;
+        private int CountPlayer;
+        private byte[] Rooms;
+        private byte[] Players;
 
-        public PROTOCOL_LOBBY_GET_ROOMLIST_ACK(int AllRooms, int AllPlayers, int RoomPage, int PlayerPage, int CountRoom, int CountPlayer, byte[] Rooms, byte[] Players)
+        public PROTOCOL_LOBBY_GET_ROOMLIST_ACK(
+          int AllRooms,
+          int AllPlayers,
+          int RoomPage,
+          int PlayerPage,
+          int CountRoom,
+          int CountPlayer,
+          byte[] Rooms,
+          byte[] Players)
         {
             this.AllRooms = AllRooms;
             this.AllPlayers = AllPlayers;
@@ -21,15 +35,15 @@ namespace PointBlank.Game.Network.ServerPacket
 
         public override void write()
         {
-            writeH(3078);
-            writeD(AllRooms);
-            writeD(RoomPage);
-            writeD(CountRoom);
-            writeB(Rooms);
-            writeD(AllPlayers);
-            writeD(PlayerPage);
-            writeD(CountPlayer);
-            writeB(Players);
+            this.writeH((short)3078);
+            this.writeD(this.AllRooms);
+            this.writeD(this.RoomPage);
+            this.writeD(this.CountRoom);
+            this.writeB(this.Rooms);
+            this.writeD(this.AllPlayers);
+            this.writeD(this.PlayerPage);
+            this.writeD(this.CountPlayer);
+            this.writeB(this.Players);
         }
     }
 }

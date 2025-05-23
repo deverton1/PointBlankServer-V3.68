@@ -1,0 +1,662 @@
+________________________________________________________________________________
+          ____                       _       _____  __     _______ _   _
+      ___|  _ \ _   _ _______  _ __ (_)_  __|__  /  \ \   / /___  / | / |
+     |_  / |_) | | | |_  / _ \| '_ \| \ \/ /  / /____\ \ / /   / /| | | |
+      / /|  _ <| |_| |/ / (_) | | | | |>  <  / /|_____\ V /   / /_| |_| |
+     /___|_| \_\\__, /___\___/|_| |_|_/_/\_\/____|     \_/   /_/(_)_(_)_|
+                |___/
+_______________________________ 23/05/2025 02:16 _______________________________
+[Release Server: version 3.68]
+02:18:45 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_inventory_template" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.BasicInventoryXml.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\BasicInventoryXml.cs:linha 24
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_inventory_template" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:45 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_settings" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Server.ServerConfigSyncer.GenerateConfig(Int32 configId) na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Server\ServerConfigSyncer.cs:linha 27
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_settings" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:45 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "gameservers" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.ServersXml.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\ServersXml.cs:linha 40
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "gameservers" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:45 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "channels" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Game.Data.Xml.ChannelsXml.Load(Int32 serverId) na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Game\Data\Xml\ChannelsXml.cs:linha 25
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "channels" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_visit" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventVisitSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventVisitSyncer.cs:linha 25
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_visit" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_login" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventLoginSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventLoginSyncer.cs:linha 24
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_login" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_mapbonus" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventMapSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventMapSyncer.cs:linha 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_mapbonus" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_playtime" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventPlayTimeSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventPlayTimeSyncer.cs:linha 26
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_playtime" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_quest" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventQuestSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventQuestSyncer.cs:linha 25
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_quest" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_rankup" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventRankUpSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventRankUpSyncer.cs:linha 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_rankup" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_events_xmas" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Events.EventXmasSyncer.GenerateList() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Events\EventXmasSyncer.cs:linha 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_events_xmas" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "clans" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Game.Data.Managers.ClanManager.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Game\Data\Managers\ClanManager.cs:linha 28
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "clans" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_ranks" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.RankXml.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\RankXml.cs:linha 27
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_ranks" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_rank_awards" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.RankXml.LoadAwards() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\RankXml.cs:linha 141
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_rank_awards" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_clan_ranks" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.ClanRankXml.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\ClanRankXml.cs:linha 23
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_clan_ranks" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_cards_awards" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.MissionAwardsXml.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\MissionAwardsXml.cs:linha 24
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_cards_awards" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_cards" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Xml.MissionsXml.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Xml\MissionsXml.cs:linha 24
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_cards" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "item_goods" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.ShopManager.Load(Int32 type) na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\ShopManager.cs:linha 38
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "item_goods" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_effect_flags" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.CouponEffectManager.LoadCouponFlags() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\CouponEffectManager.cs:linha 24
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_effect_flags" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "permissions" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.PermissionManager.Load() na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\PermissionManager.cs:linha 29
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "permissions" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Error] Npgsql.PostgresException (0x80004005): 42P01: relation "server_settings" does not exist
+
+POSITION: 15
+   em Npgsql.Internal.NpgsqlConnector.<ReadMessageLong>d__231.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlDataReader.<NextResult>d__52.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlDataReader.NextResult()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em Npgsql.NpgsqlCommand.<ExecuteReader>d__120.MoveNext()
+--- Fim do rastreamento de pilha do local anterior onde a exceção foi gerada ---
+   em System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   em System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   em Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   em PointBlank.Core.Managers.Server.ServerConfigSyncer.GenerateConfig(Int32 configId) na C:\Users\evert\Desktop\Point Blank Server 3.68 zRyzonixZ\PointBlank.Core\Managers\Server\ServerConfigSyncer.cs:linha 27
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "server_settings" does not exist
+    Position: 15
+    File: D:\a\postgresql-packaging-foundation\postgresql-packaging-foundation\postgresql-13.21\src\backend\parser\parse_relation.c
+    Line: 1376
+    Routine: parserOpenTable
+02:18:46 [Info] GameManager started. [127.0.0.1:39191]
+02:18:56 [Info] RconManager started. [ws://127.0.0.1:30000]

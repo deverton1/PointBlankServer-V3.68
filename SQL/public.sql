@@ -1,18 +1,18 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : PBEB
+ Source Server         : LOCALHOST
  Source Server Type    : PostgreSQL
- Source Server Version : 130008 (130008)
+ Source Server Version : 170004 (170004)
  Source Host           : localhost:5432
- Source Catalog        : v330
+ Source Catalog        : postgres
  Source Schema         : public
 
  Target Server Type    : PostgreSQL
- Target Server Version : 130008 (130008)
+ Target Server Version : 170004 (170004)
  File Encoding         : 65001
 
- Date: 29/07/2024 10:18:28
+ Date: 28/04/2025 15:31:31
 */
 
 
@@ -349,6 +349,7 @@ INSERT INTO "public"."channels" VALUES (1, 6, 1, 'General', 1);
 INSERT INTO "public"."channels" VALUES (1, 7, 4, 'Clan', 0);
 INSERT INTO "public"."channels" VALUES (1, 8, 4, 'Clan', 0);
 INSERT INTO "public"."channels" VALUES (1, 9, 4, 'Clan', 0);
+INSERT INTO "public"."channels" VALUES (1, 10, 4, 'clan', 0);
 
 -- ----------------------------
 -- Table structure for clan_invites
@@ -3058,6 +3059,7 @@ INSERT INTO "public"."item_goods" VALUES (103466, 'SC 2010 Silence', 2, '86400,2
 INSERT INTO "public"."item_goods" VALUES (103486, 'Pindad SS2 V5 PBTC2018', 2, '86400,259200', '1000,2700', '0,0', 0, 4, 't', 0);
 INSERT INTO "public"."item_goods" VALUES (103494, 'AUG A3 PBST2018', 2, '86400,259200', '1000,2700', '0,0', 0, 4, 't', 0);
 INSERT INTO "public"."item_goods" VALUES (103528, 'SC 2010 GunZeeD', 2, '86400,259200', '1000,2700', '0,0', 0, 0, 't', 0);
+INSERT INTO "public"."item_goods" VALUES (103298, 'AUG A3 PBST2016', 3, '100', '100', '0', 0, 4, 'f', 0);
 INSERT INTO "public"."item_goods" VALUES (103567, 'SC 2010 Ramadan19-Basic', 2, '86400,259200', '1000,2700', '0,0', 0, 0, 't', 0);
 INSERT INTO "public"."item_goods" VALUES (104060, 'KrissSuperV IC', 2, '86400,259200', '1000,2700', '0,0', 0, 0, 't', 0);
 INSERT INTO "public"."item_goods" VALUES (104087, 'KrissSuperV GSL', 2, '86400,259200', '1000,2700', '0,0', 0, 0, 't', 0);
@@ -3228,7 +3230,6 @@ INSERT INTO "public"."item_goods" VALUES (315034, 'M-9 Dual Zepetto', 3, '100', 
 INSERT INTO "public"."item_goods" VALUES (407016, 'Football bomb', 3, '100', '100', '0', 0, 4, 'f', 0);
 INSERT INTO "public"."item_goods" VALUES (407058, 'K-413 Russian Normal', 3, '100', '100', '0', 0, 4, 'f', 0);
 INSERT INTO "public"."item_goods" VALUES (103299, 'AUG-A3 Supreme', 3, '100', '100', '0', 0, 4, 't', 0);
-INSERT INTO "public"."item_goods" VALUES (103298, 'AUG A3 PBST2016', 3, '100', '100', '0', 0, 4, 'f', 0);
 INSERT INTO "public"."item_goods" VALUES (103033, 'AK-SOPMOD Exp Pt 20', 3, '100', '100', '0', 0, 4, 'f', 0);
 INSERT INTO "public"."item_goods" VALUES (103249, 'AUG A3 Silence', 3, '100', '100', '0', 0, 4, 'f', 0);
 INSERT INTO "public"."item_goods" VALUES (103445, 'AUG A3 Space-Basic', 3, '100', '100', '0', 0, 4, 'f', 0);
@@ -6257,10 +6258,10 @@ CREATE TABLE "public"."players" (
 -- ----------------------------
 -- Records of players
 -- ----------------------------
-INSERT INTO "public"."players" VALUES ('token3', 'token3', 6, 'EmpireB', 0, 24, 1, 4994800, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, '127.0.0.1', '', 1010000, 5000000, 'f', 104006, 202003, 301001, 407001, 508001, 601001, 602002, 1000800000, 1500511, 0, 979, 874, 594, 849, 1, 1, 20140429, 0, 0, 5, 7, 0, 0, 4294967295, 0, 0, 0, '0c:de:0c:9d:1d:de', 0, 'token3', '', 0, 0, 0, 0, 1000700000, 1000900000, 1001000000, 1001100000, 1001200000, 1001300000, 1001400000, 0, 0);
 INSERT INTO "public"."players" VALUES ('rupb', 'rupb', 9, 'Ambasador', 0, 0, 0, 5000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '127.0.0.1', '', 1010000, 5000000, 'f', 104006, 202003, 301001, 407001, 508001, 601001, 602002, 1000800000, 1500511, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 4294967295, 0, 0, 0, '0c:de:0c:9d:1d:de', 0, 'rupb', '', 0, 0, 0, 0, 1000700000, 1000900000, 1001000000, 1001100000, 1001200000, 1001300000, 1001400000, 0, 0);
 INSERT INTO "public"."players" VALUES ('token2', 'token2', 7, 'hELLO', 0, 232, 36, 4958200, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, '127.0.0.1', '', 1010000, 4957900, 't', 104006, 202003, 301001, 407001, 508001, 601001, 602002, 1000800000, 1500511, 0, 989, 874, 594, 849, 1, 0, 0, 0, 0, 5, 0, 0, 0, 4278255622, 0, 0, 0, '0c:de:0c:9d:1d:de', 0, 'token2', '', 0, 0, 0, 0, 1000700000, 1000900000, 1001000000, 1001100000, 1001200000, 1001300000, 1001400000, 0, 0);
 INSERT INTO "public"."players" VALUES ('12345678', '12345678', 8, '11111', 0, 0, 1, 4999400, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, '127.0.0.1', '', 1010000, 5000000, 't', 104006, 202003, 301001, 407001, 508001, 601001, 602002, 1000800000, 1500511, 0, 999, 998, 997, 996, 1, 0, 0, 0, 0, 5, 0, 0, 0, 4278255615, 0, 0, 0, '00:00:00:00:00:00', 0, '12345678', '', 0, 0, 0, 0, 1000700000, 1000900000, 1001000000, 1001100000, 1001200000, 1001300000, 1001400000, 0, 0);
+INSERT INTO "public"."players" VALUES ('token3', 'token3', 6, 'EmpireB', 0, 24, 1, 4994800, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, '127.0.0.1', '', 1010000, 5000000, 'f', 104006, 202003, 301001, 407001, 508001, 601001, 602002, 1000800000, 1500511, 0, 979, 874, 594, 849, 1, 1, 20140429, 0, 0, 5, 7, 0, 0, 4294967295, 0, 0, 0, '0c:de:0c:9d:1d:de', 0, 'token3', '', 0, 0, 0, 0, 1000700000, 1000900000, 1001000000, 1001100000, 1001200000, 1001300000, 1001400000, 0, 0);
 
 -- ----------------------------
 -- Table structure for server_cards

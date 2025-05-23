@@ -13,6 +13,7 @@ namespace PointBlank.Auth.Data.Sync.Client
             int rank = p.readC();
             int gold = p.readD();
             int cash = p.readD();
+            int tag = p.readD();
             Account player = AccountManager.getInstance().getAccount(playerId, true);
             if (player == null)
             {
@@ -24,6 +25,7 @@ namespace PointBlank.Auth.Data.Sync.Client
                 player._rank = rank;
                 player._gp = gold;
                 player._money = cash;
+                player._tag = tag;
             }
         }
     }

@@ -11,6 +11,7 @@ namespace PointBlank.Core.Models.Account.Players
         public long ObjId;
         public int Slot, Id;
         public int CreateDate, PlayTime;
+        public string Data;
         public string Name;
     }
 }

@@ -10,6 +10,7 @@ namespace PointBlank.Core
         public static string StartedFor = "None";
         private static object Sync = new object();
         public static bool erro;
+        public static void title(string text, ConsoleColor color) => Logger.write(text, color);
 
         public static void LogLogin(string text)
         {
@@ -47,7 +48,7 @@ namespace PointBlank.Core
             }
         }
 
-        /*public static void LogCMDPlayer(string text)
+        public static void LogCMDPlayer(string text)
         {
             try
             {
@@ -57,7 +58,7 @@ namespace PointBlank.Core
             {
 
             }
-        }*/
+        }
 
         public static void LogConsole(string text, string Result)
         {
@@ -95,9 +96,69 @@ namespace PointBlank.Core
             }
         }*/
 
-        public static void LogYaz(string text, ConsoleColor color)
+        public static void Xyan(string text)
         {
-            write(text, color);
+            write(DateTime.Now.ToString("HH:mm:ss ") + text, ConsoleColor.Cyan);
+        }
+
+        public static void title(string text)
+        {
+            write(text, ConsoleColor.Green);
+        }
+
+        public static void White(string text)
+        {
+            write(text, ConsoleColor.White);
+        }
+
+        public static void DarkRed(string text)
+        {
+            write(text, ConsoleColor.DarkRed);
+        }
+
+        public static void RedNew(string text)
+        {
+            write(DateTime.Now.ToString("HH:mm:ss ") + "[Login] " + text, ConsoleColor.Red);
+        }
+
+        public static void Red(string text)
+        {
+            write(text, ConsoleColor.Red);
+        }
+
+        public static void YellowNew(string text)
+        {
+            write(DateTime.Now.ToString("HH:mm:ss ") + "[Login] " + text, ConsoleColor.Yellow);
+        }
+
+        public static void GreenNew(string text)
+        {
+            write(DateTime.Now.ToString("HH:mm:ss ") + "[Login] " + text, ConsoleColor.Green);
+        }
+
+        public static void Yellow(string text)
+        {
+            write(text, ConsoleColor.Yellow);
+        }
+
+        public static void Green(string text)
+        {
+            write(text, ConsoleColor.Green);
+        }
+
+        public static void Cyan(string text)
+        {
+            write(text, ConsoleColor.Cyan);
+        }
+
+        public static void Blue(string text)
+        {
+            write(text, ConsoleColor.Blue);
+        }
+
+        public static void Pink(string text)
+        {
+            write(text, ConsoleColor.Magenta);
         }
 
         public static void info(string text)
@@ -125,9 +186,63 @@ namespace PointBlank.Core
             write(DateTime.Now.ToString("HH:mm:ss ") + "[Debug] " + text, ConsoleColor.Green);
         }
 
+        public static void IP_S(string text)
+        {
+            write(DateTime.Now.ToString("HH:mm:ss ") + "[IP] " + text, ConsoleColor.Green);
+        }
+
+        public static void IP_X(string text)
+        {
+            write(DateTime.Now.ToString("HH:mm:ss ") + "[IP] " + text, ConsoleColor.Cyan);
+        }
+
         public static void send(string text)
         {
             write(text, ConsoleColor.Gray);
+        }
+
+        public static void Print(string text, ConsoleColor color)
+        {
+            Write(DateTime.Now.ToString("HH:mm:ss ") + "[Time] " + text, color);
+        }
+        public static void PrintLine(string text, ConsoleColor color)
+        {
+            WriteLine(DateTime.Now.ToString("HH:mm:ss ") + "[Time] " + text, color);
+        }
+
+        private static void Write(string text, ConsoleColor color)
+        {
+            try
+            {
+                lock (Sync)
+                {
+                    System.Console.ForegroundColor = color;
+                    System.Console.Write(text);
+                    System.Console.ResetColor();
+                    save(text, StartedFor);
+                }
+            }
+            catch
+            {
+
+            }
+        }
+        private static void WriteLine(string text, ConsoleColor color)
+        {
+            try
+            {
+                lock (Sync)
+                {
+                    System.Console.ForegroundColor = color;
+                    System.Console.WriteLine(text);
+                    System.Console.ResetColor();
+                    save(text, StartedFor);
+                }
+            }
+            catch
+            {
+
+            }
         }
 
         public static void unkhown_packet(string text)
@@ -142,7 +257,7 @@ namespace PointBlank.Core
                 lock (Sync)
                 {
                     Console.ForegroundColor = color;
-                    Console.WriteLine(" " + text);
+                    Console.WriteLine(text);
                     save(text, StartedFor);
                 }
             }
@@ -177,18 +292,18 @@ namespace PointBlank.Core
                     {
                         Directory.CreateDirectory("Logs/Console");
                     }
-                    /*if (!Directory.Exists("Logs/Player"))
+                    if (!Directory.Exists("Logs/Player"))
                     {
                         Directory.CreateDirectory("Logs/Player");
-                    }*/
+                    }
                     if (!Directory.Exists("Logs/Game"))
                     {
                         Directory.CreateDirectory("Logs/Game");
                     }
-                    /*if (!Directory.Exists("Logs/ErrorC"))
+                    if (!Directory.Exists("Logs/ErrorC"))
                     {
                         Directory.CreateDirectory("Logs/ErrorC");
-                    }*/
+                    }
                     if (!Directory.Exists("Logs/Hack"))
                     {
                         Directory.CreateDirectory("Logs/Hack");
@@ -225,6 +340,7 @@ namespace PointBlank.Core
             }
         }
         */
+
         public static void save(string text, string type)
         {
             using (FileStream fileStream = new FileStream("Logs/" + type + "/" + Date + ".log", FileMode.Append))

@@ -221,7 +221,7 @@ namespace PointBlank.Auth
                         newPacketData[tamanhoAntigo + i] = bytesLogics[i - 1]; // Adiciona os novos bytes ao array
                     }
 
-                    Logger.LogYaz($"[S]: {bp.GetType().Name}\t\tData Length: {newPacketData.Length}", ConsoleColor.Cyan);
+                    Logger.Cyan($"[S]: {bp.GetType().Name}\t\tData Length: {newPacketData.Length}");
 
                     {
                         _client.BeginSend(newPacketData, 0, newPacketData.Length, SocketFlags.None, new AsyncCallback(SendCallback), _client);
@@ -322,6 +322,43 @@ namespace PointBlank.Auth
         *  bufferLength = (length & 0x8000) != 0 ? (length & 0x7FFF) + 3 : (length & 0x7FFF) + 5;
         */
 
+        //private void OnReceiveCallback(IAsyncResult ar)
+        //{
+
+        //    StateSocket asyncState = (StateSocket)ar.AsyncState;
+        //    try
+        //    {
+        //        int byteSize = asyncState.client.EndReceive(ar);
+        //        if (byteSize > 0)
+        //        {
+        //            int PacketLengthTotal = BitConverter.ToUInt16(asyncState.Buffer, 0) & 0x7FFF;
+        //            bool EncryptedPackage = byteSize - PacketLengthTotal == 3;
+
+        //            if (EncryptedPackage)
+        //            {
+        //                byte[] babyBuffer = new byte[byteSize];
+        //                Array.Copy(asyncState.Buffer, 0, babyBuffer, 0, byteSize);
+
+        //                //Pacote recebido da client encriptado.
+        //                byte[] packetDataEncryted = new byte[PacketLengthTotal];
+        //                Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
+
+        //                //Pacote recebido da client e decriptado.
+        //                int shift = (int)SessionId % 7 + 1;
+        //                CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
+        //                RunPacket(packetDataEncryted);
+
+        //                //   CheckOut(babyBuffer, PacketLengthTotal);
+        //            }
+        //        }
+        //    }
+        //    catch
+        //    {
+
+        //    }
+        //    new Thread(new ThreadStart(BeginResult)).Start();
+        //}
+
         private void OnReceiveCallback(IAsyncResult ar)
         {
 
@@ -334,30 +371,46 @@ namespace PointBlank.Auth
                     int PacketLengthTotal = BitConverter.ToUInt16(asyncState.Buffer, 0) & 0x7FFF;
                     bool EncryptedPackage = byteSize - PacketLengthTotal == 3;
 
+                    byte[] babyBuffer = new byte[byteSize];
+                    Array.Copy(asyncState.Buffer, 0, babyBuffer, 0, byteSize);
+
+                    byte[] packetDataEncryted = new byte[PacketLengthTotal];
+                    Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
+
+                    int shift = (int)SessionId % 7 + 1;
+                    CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
+
+                    RunPacket(packetDataEncryted);
+                    // CheckOut(babyBuffer, PacketLengthTotal);
+
                     if (EncryptedPackage)
                     {
-                        byte[] babyBuffer = new byte[byteSize];
-                        Array.Copy(asyncState.Buffer, 0, babyBuffer, 0, byteSize);
+                        Logger.warning("byteSize is a normal. : " + byteSize + ", PacketLengthTotal: " + PacketLengthTotal + ", difference: " + (byteSize - PacketLengthTotal));
 
-                        //Pacote recebido da client encriptado.
-                        byte[] packetDataEncryted = new byte[PacketLengthTotal];
-                        Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
+                    }
+                    else
+                    {
+                        Logger.warning("byteSize is a false : " + byteSize + ", PacketLengthTotal: " + PacketLengthTotal + ", difference: " + (byteSize - PacketLengthTotal));
 
-                        //Pacote recebido da client e decriptado.
-                        int shift = (int)SessionId % 7 + 1;
-                        CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
-                        RunPacket(packetDataEncryted);
-
-                        //   CheckOut(babyBuffer, PacketLengthTotal);
                     }
                 }
+                new Thread(new ThreadStart(BeginResult)).Start();
             }
-            catch
+            catch (ObjectDisposedException)
             {
-
+                Close(0, true);
             }
-            new Thread(new ThreadStart(BeginResult)).Start();
+            catch (SocketException)
+            {
+                Close(0, true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("OnReceiveCallback catch! : " + ex.ToString());
+                Close(0, true);
+            }
         }
+
         public void CheckOut(byte[] buffer, int FirstLength)
         {
             int tamanho = buffer.Length;
@@ -486,38 +539,63 @@ namespace PointBlank.Auth
             ReceivePacket packet = null;
             switch (opcode)
             {
-                case 257: packet = new PROTOCOL_BASE_LOGIN_REQ(this, buff); break;
-                case 515: packet = new PROTOCOL_BASE_LOGOUT_REQ(this, buff); break;
-                case 520: packet = new PROTOCOL_BASE_GAMEGUARD_REQ(this, buff); break;
-                case 522: packet = new PROTOCOL_BASE_GET_SYSTEM_INFO_REQ(this, buff); break;
-                case 524: packet = new PROTOCOL_BASE_GET_USER_INFO_REQ(this, buff); break;
-                case 526: packet = new PROTOCOL_BASE_GET_INVEN_INFO_REQ(this, buff); break;
-                case 528: packet = new PROTOCOL_BASE_GET_OPTION_REQ(this, buff); break;
-                case 530: packet = new PROTOCOL_BASE_OPTION_SAVE_REQ(this, buff); break;
-                case 536: packet = new PROTOCOL_BASE_USER_LEAVE_REQ(this, buff); break;
-                case 540: packet = new PROTOCOL_BASE_GET_CHANNELLIST_REQ(this, buff); break;
-                case 667: packet = new PROTOCOL_BASE_GET_MAP_INFO_REQ(this, buff); break;
-                case 1057: packet = new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, buff); break;
-
+                case 257:
+                    packet = new PROTOCOL_BASE_LOGIN_REQ(this, buff); break;
+                case 515:
+                    packet = new PROTOCOL_BASE_LOGOUT_REQ(this, buff); break;
+                case 520:
+                    packet = new PROTOCOL_BASE_GAMEGUARD_REQ(this, buff); break;
+                case 522:
+                    packet = new PROTOCOL_BASE_GET_SYSTEM_INFO_REQ(this, buff); break;
+                case 524:
+                    packet = new PROTOCOL_BASE_GET_USER_INFO_REQ(this, buff); break;
+                case 526:
+                    packet = new PROTOCOL_BASE_GET_INVEN_INFO_REQ(this, buff); break;
+                case 528:
+                    packet = new PROTOCOL_BASE_GET_OPTION_REQ(this, buff); break;
+                case 530:
+                    packet = new PROTOCOL_BASE_OPTION_SAVE_REQ(this, buff); break;
+                case 536:
+                    packet = new PROTOCOL_BASE_USER_LEAVE_REQ(this, buff); break;
+                case 540:
+                    packet = new PROTOCOL_BASE_GET_CHANNELLIST_REQ(this, buff); break;
+                case 622:
+                    packet = new PROTOCOL_BASE_DAILY_RECORD_REQ(this, buff); break;
+                case 667: //Original 666
+                    packet = new PROTOCOL_BASE_GET_MAP_INFO_REQ(this, buff); break;
+                case 1057:
+                    packet = new PROTOCOL_AUTH_GET_POINT_CASH_REQ(this, buff); break;
                 //NEW
-                case 622: packet = new PROTOCOL_BASE_DAILY_RECORD_REQ(this, buff); break;
-                case 607: packet = new PROTOCOL_BASE_GAME_SERVER_STATE_REQ(this, buff); break;
-                case 697: packet = new PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ(this, buff); break;
-                case 7699: packet = new PROTOCOL_7699_REQ(this, buff); break;
+                case 607:
+                    packet = new PROTOCOL_BASE_GAME_SERVER_STATE_REQ(this, buff); break;
+                case 697:
+                    packet = new PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ(this, buff); break;
+                case 7699:
+                    packet = new PROTOCOL_7699_REQ(this, buff); break;
 
                 //Deprecated
-                case 5377: packet = new PROTOCOL_LOBBY_QUICKJOIN_ROOM_REQ(this, buff); break;
+                case 5377:
+                    packet = new PROTOCOL_LOBBY_QUICKJOIN_ROOM_REQ(this, buff); break;
 
+                case 517:
+                    if (packet != null)
+                    {
+                        ThreadPool.QueueUserWorkItem(delegate
+                        {
+                            RunPacket(buff);
+                        });
+                    }
+                    break;
                 default:
                     {
-                        Logger.error($"Unhandled Opcode: {opcode}");
+                        Logger.error("Opcode not found: " + opcode);
                         Console.WriteLine(HexDump(buff));
                         break;
                     }
             }
             if (packet != null)
             {
-                Logger.LogYaz($"[C]: {packet.GetType().Name}\t\tData Length: {buff.Length}", ConsoleColor.Cyan);
+                Logger.Cyan($"[C]: {packet.GetType().Name}\t\tData Length: {buff.Length}");
                 new Thread(packet.run).Start();
             }
         }
