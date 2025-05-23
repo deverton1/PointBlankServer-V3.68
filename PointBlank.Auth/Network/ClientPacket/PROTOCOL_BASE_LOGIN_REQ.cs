@@ -22,6 +22,7 @@ namespace PointBlank.Auth.Network.ClientPacket
         private string GameVersion, PublicIP;
         private ClientLocale GameLocale;
         public PhysicalAddress MacAddress;
+
         string HexDump(byte[] data, int bytesPerLine = 16)
         {
             StringBuilder result = new StringBuilder();

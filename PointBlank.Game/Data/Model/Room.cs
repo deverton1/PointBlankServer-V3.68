@@ -1,10 +1,3 @@
-﻿using PointBlank.Core;
-using PointBlank.Core.Managers;
-using PointBlank.Core.Managers.Events;
-using PointBlank.Core.Managers.Server;
-using PointBlank.Core.Models.Account.Clan;
-using PointBlank.Core.Models.Account.Players;
-using PointBlank.Core.Models.Account.Rank;
 using PointBlank.Core.Models.Enums;
 using PointBlank.Core.Models.Map;
 using PointBlank.Core.Models.Room;
@@ -16,7 +9,6 @@ using PointBlank.Game.Data.Sync;
 using PointBlank.Game.Data.Sync.Server;
 using PointBlank.Game.Data.Utils;
 using PointBlank.Game.Data.Xml;
-using PointBlank.Game.Network.ServerPacket;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,9 +19,6 @@ namespace PointBlank.Game.Data.Model
     public class Room
     {
         public Slot[] _slots = new Slot[16];
-        public int seedvalue, _channelType, rounds = 1, TRex = -1, blue_rounds, blue_dino, red_rounds, red_dino, Bar1, Bar2, _ping = 5, _redKills, _redDeaths, _redAssists, _blueKills, _blueDeaths, _blueAssists, spawnsCount, rule, killtime, _roomId, _channelId, _leader, leaderip;
-        public byte Limit, WatchRuleFlag, aiCount = 1, IngameAiLevel, aiLevel, aiType, stage, BattleCountdown, KillCam, State;
-        public short BalanceType;
         public bool Countdown = false;
         public readonly int[] TIMES = new int[11]
         {
@@ -43,7 +32,7 @@ namespace PointBlank.Game.Data.Model
         {
             1, 2, 3, 5, 7, 9
         },
-            RED_TEAM = new int[9]
+            RED_TEAM = new int[8]
         {
             0, 2, 4, 6, 8, 10, 12, 14, 16
         },
@@ -57,7 +46,6 @@ namespace PointBlank.Game.Data.Model
             16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
             30, 31, 32, 33, 34
         };
-        public byte[] RandomMaps, RoomLeaderIP;
         public uint _timeRoom, StartDate, UniqueRoomId, Seed;
         public long StartTick;
         public string name, password, _mapName, leader_name;
@@ -119,14 +107,6 @@ namespace PointBlank.Game.Data.Model
         public int getFlag()
         {
             int Result = 0;
-            if (Flag.HasFlag(RoomStageFlag.OBSERVER))
-            {
-                Result += 0;
-            }
-            if (Flag.HasFlag(RoomStageFlag.TEAM_SWAP))
-            {
-                Result += 1;
-            }
             if (Flag.HasFlag(RoomStageFlag.RANDOM_MAP))
             {
                 Result += 2;
@@ -144,7 +124,6 @@ namespace PointBlank.Game.Data.Model
                 Result += 128;
             }
             Flag = (RoomStageFlag)Result;
-            Console.WriteLine("Current room Flag = " + Flag);
             return Result;
         }
 
@@ -286,11 +265,6 @@ namespace PointBlank.Game.Data.Model
                 //error = EventErrorEnum.BATTLE_FIRST_MAINLOAD;
                 //dueTime = 90000;
             }
-            //else if (type == 1)
-            //{
-            //    error = EventErrorEnum.BATTLE_FIRST_HOLE;
-            //    dueTime = 30000;
-            //}
             else
             {
                 return;
@@ -513,7 +487,6 @@ namespace PointBlank.Game.Data.Model
                         Logger.warning("[Room.StartCountDown] Room: " + _roomId + "; Canal: " + _channelId + "; state: " + RoomState + "; leader: " + _slots[_leader].state);
                         Logger.warning("[Data: " + DateTime.Now.ToString("dd/MM/yy HH:mm:ss"));
                     }
-                }
                 catch (Exception ex)
                 {
                     Logger.warning("[Room.StartCountDown] " + ex.ToString());
@@ -577,14 +550,6 @@ namespace PointBlank.Game.Data.Model
             lock (_slots)
             {
                 BaseResultGame(resultType, isBotMode);
-            }
-        }
-
-        public void CalculateResultFreeForAll(int SlotWin)
-        {
-            lock (_slots)
-            {
-                BaseResultGameFreeForAll(SlotWin);
             }
         }
 
@@ -749,7 +714,6 @@ namespace PointBlank.Game.Data.Model
                         slot.BonusItemExp += ItemExp;
                         slot.BonusItemPoint += ItemPoint;
                     }
-
                     if (isBotMode)
                     {
                         if (slot.BonusItemExp > 300)
@@ -817,224 +781,6 @@ namespace PointBlank.Game.Data.Model
                         query.AddQuery("rank", player._rank);
                     }
                     if (evPt != null)
-                    {
-                        AllUtils.PlayTimeEvent((long)inBattleTime, player, evPt, isBotMode);
-                    }
-                    AllUtils.DiscountPlayerItems(slot, player);
-                    if (gp != player._gp)
-                    {
-                        query.AddQuery("gp", player._gp);
-                    }
-                    if (xp != player._exp)
-                    {
-                        query.AddQuery("exp", player._exp);
-                    }
-                    if (my != player._money)
-                    {
-                        query.AddQuery("money", player._money);
-                    }
-                    ComDiv.updateDB("players", "player_id", player.player_id, query.GetTables(), query.GetValues());
-                    ComDiv.updateDB("player_dailyrecord", "player_id", player.player_id, query2.GetTables(), query2.GetValues());
-                    if (GameConfig.winCashPerBattle && GameConfig.showCashReceiveWarn)
-                    {
-                        player.SendPacket(new PROTOCOL_SERVER_MESSAGE_ANNOUNCE_ACK(Translation.GetLabel("CashReceived", slot.money)));
-                    }
-                }
-            }
-            updateSlotsInfo();
-            CalculateClanMatchResult((int)winnerTeam);
-        }
-
-        private void BaseResultGameFreeForAll(int winner)
-        {
-            ServerConfig cfg = GameManager.Config;
-            EventUpModel evUp = EventRankUpSyncer.getRunningEvent();
-            EventMapModel evMap = EventMapSyncer.getRunningEvent();
-            bool mapEvUse = EventMapSyncer.EventIsValid(evMap, (int)mapId, (int)RoomType);
-            PlayTimeModel evPt = EventPlayTimeSyncer.getRunningEvent();
-            DateTime finishDate = DateTime.Now;
-            int[] Array = new int[16];
-            int SlotWin = 0;
-            if (cfg == null)
-            {
-                Logger.error("Server Config Null. RoomResult canceled.");
-                return;
-            }
-            for (int i = 0; i < 16; i++)
-            {
-                Slot slot = _slots[i];
-                if (slot._playerId != 0)
-                {
-                    Array[i] = slot.allKills;
-                }
-                else
-                {
-                    Array[i] = 0;
-                }
-                if (Array[i] > Array[SlotWin])
-                {
-                    SlotWin = i;
-                }
-                Account player;
-                if (!slot.check && slot.state == SlotState.BATTLE && getPlayerBySlot(slot, out player))
-                {
-                    DBQuery query = new DBQuery();
-                    DBQuery query2 = new DBQuery();
-                    slot.check = true;
-                    double inBattleTime = slot.inBattleTime(finishDate);
-                    int gp = player._gp, xp = player._exp, my = player._money;
-                    if (cfg.missions)
-                    {
-                        AllUtils.endMatchMission(this, player, slot, (winner == SlotWin) ? _slots[SlotWin]._team == 0 ? TeamResultType.TeamRedWin : TeamResultType.TeamBlueWin : TeamResultType.TeamDraw);
-                        if (slot.MissionsCompleted)
-                        {
-                            player._mission = slot.Missions;
-                            MissionManager.getInstance().updateCurrentMissionList(player.player_id, player._mission);
-                        }
-                        AllUtils.GenerateMissionAwards(player, query);
-                    }
-                    int timePlayed = slot.allKills == 0 && slot.allDeaths == 0 ? (int)(inBattleTime / 3) : (int)inBattleTime;
-                    slot.exp = (int)(slot.Score + (timePlayed / 2.5) + (slot.allDeaths * 1.8) + (slot.objects * 20));
-                    slot.gp = (int)(slot.Score + (timePlayed / 3.0) + (slot.allDeaths * 1.8) + (slot.objects * 20));
-                    slot.money = (int)((slot.Score / 1.5) + (timePlayed / 4.5) + (slot.allDeaths * 1.1) + (slot.objects * 20));
-                    if (rule != 80 && rule != 32)
-                    {
-                        player._statistic.headshots_count += slot.headshots;
-                        player._statistic.kills_count += slot.allKills;
-                        player._statistic.totalkills_count += slot.allKills;
-                        player._statistic.deaths_count += slot.allDeaths;
-                        player._statistic.assist += slot.allAssists;
-                        AddKDInfosToQuery(slot, player._statistic, query);
-                        AllUtils.updateMatchCountFreeForAll(this, player, SlotWin, query);
-                        if (player.Daily != null)
-                        {
-                            player.Daily.Kills += slot.allKills;
-                            player.Daily.Deaths += slot.allDeaths;
-                            player.Daily.Headshots += slot.headshots;
-                            AddDailyToQuery(slot, player.Daily, query2);
-                            AllUtils.UpdateMatchDailyRecordFreeForAll(this, player, SlotWin, query2);
-                        }
-                    }
-                    if (winner == SlotWin)
-                    {
-                        slot.gp += AllUtils.percentage(slot.gp, 15);
-                        slot.exp += AllUtils.percentage(slot.exp, 20);
-                    }
-                    if (slot.earnedXP > 0)
-                    {
-                        slot.exp += slot.earnedXP * 5;
-                    }
-                    slot.exp = slot.exp > GameConfig.maxBattleXP ? GameConfig.maxBattleXP : slot.exp;
-                    slot.gp = slot.gp > GameConfig.maxBattleGP ? GameConfig.maxBattleGP : slot.gp;
-                    slot.money = slot.money > GameConfig.maxBattleMY ? GameConfig.maxBattleMY : slot.money;
-                    if (slot.exp < 0 || slot.gp < 0 || slot.money < 0)
-                    {
-                        slot.exp = 2;
-                        slot.gp = 2;
-                        slot.money = 2;
-                    }
-                    int ItemExp = 0, ItemPoint = 0, EventExp = 0, EventPoint = 0;
-                    if (evUp != null || mapEvUse)
-                    {
-                        if (evUp != null)
-                        {
-                            EventExp += evUp._percentXp;
-                            EventPoint += evUp._percentGp;
-                        }
-                        if (mapEvUse)
-                        {
-                            EventExp += evMap._percentXp;
-                            EventPoint += evMap._percentGp;
-                        }
-                        if (!slot.bonusFlags.HasFlag(ResultIcon.Event))
-                        {
-                            slot.bonusFlags |= ResultIcon.Event;
-                        }
-                        slot.BonusEventExp += AllUtils.percentage(EventExp, 100);
-                        slot.BonusEventPoint += AllUtils.percentage(EventPoint, 100);
-                    }
-                    PlayerBonus c = player._bonus;
-                    if (c != null && c.bonuses > 0)
-                    {
-                        if ((c.bonuses & 8) == 8)
-                        {
-                            ItemExp += 100;
-                        }
-                        if ((c.bonuses & 128) == 128)
-                        {
-                            ItemPoint += 100;
-                        }
-                        if ((c.bonuses & 4) == 4)
-                        {
-                            ItemExp += 50;
-                        }
-                        if ((c.bonuses & 64) == 64)
-                        {
-                            ItemPoint += 50;
-                        }
-                        if ((c.bonuses & 2) == 2)
-                        {
-                            ItemExp += 30;
-                        }
-                        if ((c.bonuses & 32) == 32)
-                        {
-                            ItemPoint += 30;
-                        }
-                        if ((c.bonuses & 1) == 1)
-                        {
-                            ItemExp += 10;
-                        }
-                        if ((c.bonuses & 16) == 16)
-                        {
-                            ItemPoint += 10;
-                        }
-                        if (!slot.bonusFlags.HasFlag(ResultIcon.Item))
-                        {
-                            slot.bonusFlags |= ResultIcon.Item;
-                        }
-                        slot.BonusItemExp += ItemExp;
-                        slot.BonusItemPoint += ItemPoint;
-                    }
-                    int BonusAllexp = EventExp + slot.BonusCafeExp + slot.BonusItemExp;
-                    int BonusAllPoint = EventPoint + slot.BonusCafePoint + slot.BonusItemPoint;
-                    slot.BonusEventExp = AllUtils.percentage(slot.exp, BonusAllexp);
-                    slot.BonusEventPoint = AllUtils.percentage(slot.gp, BonusAllPoint);
-                    player._gp += slot.gp + slot.BonusEventPoint;
-                    player._exp += slot.exp + slot.BonusEventExp;
-                    if (player.Daily != null)
-                    {
-                        player.Daily.Point += slot.gp + slot.BonusEventPoint;
-                        player.Daily.Exp += slot.exp + slot.BonusEventExp;
-                        query2.AddQuery("point", player.Daily.Point);
-                        query2.AddQuery("exp", player.Daily.Exp);
-                    }
-                    if (GameConfig.winCashPerBattle)
-                    {
-                        player._money += slot.money;
-                    }
-                    RankModel rank = RankXml.getRank(player._rank);
-                    RankModel rank_61 = RankXml.getRank(61);
-                    if (rank != null && player._exp >= (rank._onNextLevel + rank._onAllExp) && player._rank <= 50)
-                    {
-                        List<ItemsModel> items = RankXml.getAwards(player._rank);
-                        if (items.Count > 0)
-                        {
-                            for (int idx = 0; idx < items.Count; idx++)
-                            {
-                                ItemsModel Item = items[idx];
-                                if (Item._id != 0)
-                                {
-                                    player.SendPacket(new PROTOCOL_INVENTORY_GET_INFO_ACK(0, player, Item));
-                                }
-                            }
-                        }
-                        player._gp += rank._onGPUp;
-                        player.LastRankUpDate = uint.Parse(finishDate.ToString("yyMMddHHmm"));
-                        player.SendPacket(new PROTOCOL_BASE_RANK_UP_ACK(++player._rank, rank._onNextLevel));
-                        query.AddQuery("last_rankup_date", (long)player.LastRankUpDate);
-                        query.AddQuery("rank", player._rank);
-                    }
-                    else if (rank != null && player._exp >= rank_61._onAllExp && player._rank == 51)
                     {
                         List<ItemsModel> items = RankXml.getAwards(player._rank);
                         if (items.Count > 0)
@@ -1363,27 +1109,6 @@ namespace PointBlank.Game.Data.Model
                         slots.Add(new SlotChange { oldSlot = old, newSlot = slot });
                         break;
                     }
-                }
-            }
-            else
-            {
-                Slot slot = _slots[slotIdx];
-                if (slot._playerId == 0 && (int)slot.state == 0)
-                {
-                    slot.state = SlotState.NORMAL;
-                    slot._playerId = p.player_id;
-                    slot._equip = p._equip;
-
-                    old.state = SlotState.EMPTY;
-                    old._playerId = 0;
-                    old._equip = null;
-
-                    if (p._slotId == _leader)
-                    {
-                        _leader = slotIdx;
-                    }
-                    p._slotId = slotIdx;
-                    slots.Add(new SlotChange { oldSlot = old, newSlot = slot });
                 }
             }
         }
