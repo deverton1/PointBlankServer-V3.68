@@ -32,16 +32,11 @@ namespace PointBlank.Auth.Network.ServerPacket
             CheckIp(Ip);
             writeH(514);
             writeH(0);
-            writeC(10);
-            for (int i = 0; i < 10; i++)
-                writeC(0);
-
-            writeH(6);
-            writeH(4);
-            writeD((short)SetKey);
-            writeC(3);
-            writeH(68);
             writeD(SessionId);
+            writeB(new byte[16]);
+            writeC(3);
+            writeD(SetKey);
+            writeH(0);
         }
 
 

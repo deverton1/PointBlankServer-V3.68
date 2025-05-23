@@ -1,4 +1,4 @@
-﻿using PointBlank.Core;
+using PointBlank.Core;
 using PointBlank.Core.Managers.Events;
 using PointBlank.Core.Managers.Server;
 using PointBlank.Core.Models.Account;
@@ -58,18 +58,26 @@ namespace PointBlank.Auth.Data.Sync
 
         private static void recv(IAsyncResult res)
         {
-            if (AuthManager.ServerIsClosed)
+            try
             {
-                return;
+                if (AuthManager.ServerIsClosed)
+                {
+                    return;
+                }
+                IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 8000);
+                byte[] received = udp.EndReceive(res, ref RemoteIpEndPoint);
+                
+                if (received.Length >= 2)
+                {
+                    LoadPacket(received);
+                }
+                
+                new Thread(read).Start();
             }
-            IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 8000);
-            byte[] received = udp.EndReceive(res, ref RemoteIpEndPoint);
-            Thread.Sleep(5);
-            new Thread(read).Start();
-
-            if (received.Length >= 2)
+            catch (Exception ex)
             {
-                LoadPacket(received);
+                Logger.error("Auth Sync Error: " + ex.ToString());
+                new Thread(read).Start();
             }
         }
 

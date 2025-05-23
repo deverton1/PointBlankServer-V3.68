@@ -380,15 +380,13 @@ namespace PointBlank.Auth
                     if (PacketLengthTotal <= 0 || PacketLengthTotal > StateSocket.bufferSize)
                     {
                         Logger.warning("Invalid packet length: " + PacketLengthTotal);
-                        Close(0, true);
                         return;
                     }
 
                     bool EncryptedPackage = byteSize - PacketLengthTotal == 3;
                     if (!EncryptedPackage && byteSize - PacketLengthTotal != 5)
                     {
-                        Logger.warning($"Invalid package size - ByteSize: {byteSize}, PacketLength: {PacketLengthTotal}");
-                        Close(0, true);
+                        Logger.warning($"Package size mismatch - ByteSize: {byteSize}, PacketLength: {PacketLengthTotal}");
                         return;
                     }
 
