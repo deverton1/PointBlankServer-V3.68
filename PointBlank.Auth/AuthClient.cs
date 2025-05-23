@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32.SafeHandles;
+using Microsoft.Win32.SafeHandles;
 using PointBlank.Auth.Data.Configs;
 using PointBlank.Auth.Data.Model;
 using PointBlank.Auth.Data.Sync;
@@ -361,52 +361,43 @@ namespace PointBlank.Auth
 
         private void OnReceiveCallback(IAsyncResult ar)
         {
-
             StateSocket asyncState = (StateSocket)ar.AsyncState;
             try
             {
+                if (closed || asyncState == null || asyncState.client == null)
+                    return;
+
                 int byteSize = asyncState.client.EndReceive(ar);
                 if (byteSize > 0)
                 {
+                    if (byteSize < 2)
+                    {
+                        BeginResult();
+                        return;
+                    }
+
                     int PacketLengthTotal = BitConverter.ToUInt16(asyncState.Buffer, 0) & 0x7FFF;
                     bool EncryptedPackage = byteSize - PacketLengthTotal == 3;
 
-                    byte[] babyBuffer = new byte[byteSize];
-                    Array.Copy(asyncState.Buffer, 0, babyBuffer, 0, byteSize);
-
-                    byte[] packetDataEncryted = new byte[PacketLengthTotal];
-                    Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
-
-                    int shift = (int)SessionId % 7 + 1;
-                    CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
-
-                    RunPacket(packetDataEncryted);
-                    // CheckOut(babyBuffer, PacketLengthTotal);
-
-                    if (EncryptedPackage)
+                    try
                     {
-                        Logger.warning("byteSize is a normal. : " + byteSize + ", PacketLengthTotal: " + PacketLengthTotal + ", difference: " + (byteSize - PacketLengthTotal));
+                        byte[] packetDataEncryted = new byte[PacketLengthTotal];
+                        Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
 
+                        int shift = (int)SessionId % 7 + 1;
+                        CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
+                        RunPacket(packetDataEncryted);
                     }
-                    else
+                    catch (Exception ex)
                     {
-                        Logger.warning("byteSize is a false : " + byteSize + ", PacketLengthTotal: " + PacketLengthTotal + ", difference: " + (byteSize - PacketLengthTotal));
-
+                        Logger.warning("OnReceiveCallback: " + ex.ToString());
                     }
                 }
-                new Thread(new ThreadStart(BeginResult)).Start();
-            }
-            catch (ObjectDisposedException)
-            {
-                Close(0, true);
-            }
-            catch (SocketException)
-            {
-                Close(0, true);
+                BeginResult();
             }
             catch (Exception ex)
             {
-                Console.WriteLine("OnReceiveCallback catch! : " + ex.ToString());
+                Logger.error("OnReceiveCallback: " + ex.ToString());
                 Close(0, true);
             }
         }
