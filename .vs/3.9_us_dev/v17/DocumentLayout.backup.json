@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data\\GitHub\\PointBlank-Private\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|c:\\data\\github\\pointblank-private\\pointblank.game\\network\\serverpacket\\protocol_battle_start_game_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_battle_start_game_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|c:\\data\\github\\pointblank-private\\pointblank.game\\network\\serverpacket\\protocol_battle_start_game_trans_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_battle_start_game_trans_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|c:\\data\\github\\pointblank-private\\pointblank.game\\network\\serverpacket\\protocol_room_get_slotinfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_get_slotinfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|c:\\data\\github\\pointblank-private\\pointblank.game\\network\\clientpacket\\protocol_battle_readybattle_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_battle_readybattle_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|c:\\data\\github\\pointblank-private\\pointblank.game\\gameclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{429140F6-AB74-411B-964F-657BDA47D6F8}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\gameclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PROTOCOL_BATTLE_START_GAME_ACK.cs",
+              "DocumentMoniker": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_ACK.cs",
+              "ToolTip": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_ACK.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwIsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T06:21:54.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PROTOCOL_BATTLE_START_GAME_TRANS_ACK.cs",
+              "DocumentMoniker": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_TRANS_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_TRANS_ACK.cs",
+              "ToolTip": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_TRANS_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BATTLE_START_GAME_TRANS_ACK.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T06:21:12.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PROTOCOL_BATTLE_READYBATTLE_REQ.cs",
+              "DocumentMoniker": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BATTLE_READYBATTLE_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BATTLE_READYBATTLE_REQ.cs",
+              "ToolTip": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BATTLE_READYBATTLE_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BATTLE_READYBATTLE_REQ.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T06:20:15.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameClient.cs",
+              "DocumentMoniker": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\GameClient.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\GameClient.cs",
+              "ToolTip": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\GameClient.cs",
+              "RelativeToolTip": "PointBlank.Game\\GameClient.cs",
+              "ViewState": "AgIAADUDAAAAAAAAAAArwD8DAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T06:18:07.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PROTOCOL_ROOM_GET_SLOTINFO_ACK.cs",
+              "DocumentMoniker": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_SLOTINFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_SLOTINFO_ACK.cs",
+              "ToolTip": "C:\\Data\\GitHub\\PointBlank-Private\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_SLOTINFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_SLOTINFO_ACK.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T05:50:48.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

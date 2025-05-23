@@ -1,0 +1,1838 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_base_get_user_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_get_user_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_base_get_user_info_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_get_user_info_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_auth_shop_use_giftcoupon_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_auth_shop_use_giftcoupon_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|c:\\users\\ryzuk\\onedrive\\documents\\visual studio 2022\\project\\point blank server 3.68 mithg \u002B zryzonixz\\pointblank.auth\\data\\configs\\authconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\configs\\authconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|c:\\users\\ryzuk\\onedrive\\documents\\visual studio 2022\\project\\point blank server 3.68 mithg \u002B zryzonixz\\pointblank.auth\\network\\serverpacket\\protocol_base_get_system_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_get_system_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_base_get_system_info_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_get_system_info_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_room_create_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_room_create_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_room_change_roominfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_change_roominfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_room_change_roominfo_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_room_change_roominfo_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_room_create_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_create_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|c:\\users\\ryzuk\\onedrive\\documents\\visual studio 2022\\project\\point blank server 3.68 mithg \u002B zryzonixz\\pointblank.game\\data\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_base_daily_record_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_daily_record_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_room_get_acemode_playerinfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_get_acemode_playerinfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_room_join_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_join_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_lobby_get_roominfoadd_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_lobby_get_roominfoadd_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_room_change_room_optioninfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_change_room_optioninfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_base_get_chara_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_get_chara_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\chat\\changeroominfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\chat\\changeroominfos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_lobby_get_roomlist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_lobby_get_roomlist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_clan_war_create_room_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_clan_war_create_room_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\gameclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\gameclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_lobby_get_roomlist_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_lobby_get_roomlist_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\xml\\channelsxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\xml\\channelsxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\xml\\channelsxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\xml\\channelsxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_base_get_channellist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_base_get_channellist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_base_get_channellist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_get_channellist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_base_select_channel_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_base_select_channel_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_base_get_channellist_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_base_get_channellist_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_base_select_channel_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_base_select_channel_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\model\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\model\\channel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_base_get_channellist_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_get_channellist_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\sync\\server\\sendrefresh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\sync\\server\\sendrefresh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\sync\\authsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\sync\\authsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\managers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\managers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\managers\\clanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\managers\\clanmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\managers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\managers\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_auth_get_point_cash_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_auth_get_point_cash_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\managers\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\managers\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\chat\\sendcashtoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\chat\\sendcashtoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\chat\\sendcashtoplayerdev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\chat\\sendcashtoplayerdev.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\chat\\setcashtoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\chat\\setcashtoplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_auth_get_point_cash_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_auth_get_point_cash_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\clientpacket\\protocol_char_create_chara_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_char_create_chara_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\sync\\client\\playersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\sync\\client\\playersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\sync\\client\\playersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\sync\\client\\playersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\sync\\client\\removeplayersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\sync\\client\\removeplayersync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_base_server_list_refresh_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_server_list_refresh_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\managers\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_base_login_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_login_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\data\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\data\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_base_login_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_login_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\data\\command\\commands\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\command\\commands\\updatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\network\\serverpacket\\protocol_shop_tag_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_shop_tag_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\serverpacket\\protocol_cs_member_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_cs_member_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\network\\clientpacket\\protocol_base_get_map_info_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_get_map_info_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\network\\comdiv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\network\\comdiv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\network\\bitset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\network\\bitset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\translation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\translation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\roomsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\roomsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\receivepacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\receivepacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\packets\\protocol_bots_action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\packets\\protocol_bots_action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\battlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\battlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\stageobjanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\stageobjanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\stageinfoobjstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\stageinfoobjstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\objectstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\objectstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\objectanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\objectanim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\grenadesync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\grenadesync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\dropedweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\dropedweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\subhead\\controledobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\subhead\\controledobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\weaponrecoil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\weaponrecoil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\suicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\suicide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\useobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\useobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\radiochat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\radiochat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\missiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\missiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\grenadehit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\grenadehit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\getweaponforhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\getweaponforhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\getweaponforclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\getweaponforclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\firenhitdataonobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\firenhitdataonobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\firedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\firedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\dropweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\dropweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\charafirenhitdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\charafirenhitdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\network\\actions\\event\\actionforobjectsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\network\\actions\\event\\actionforobjectsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\xml\\serversxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\xml\\serversxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\xml\\meleeexceptionsxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\xml\\meleeexceptionsxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\xml\\mapxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\xml\\mapxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\xml\\charaxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\xml\\charaxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\items\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\items\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\sync\\battlesync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\sync\\battlesync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\configfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\configfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.auth\\authclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\authclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\data\\allutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\allutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.battle\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.core\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\pointblank.game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PROTOCOL_BASE_GET_SYSTEM_INFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_ACK.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:06:34.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Configs\\AuthConfig.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Configs\\AuthConfig.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Configs\\AuthConfig.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Configs\\AuthConfig.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T11:58:33.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PROTOCOL_ROOM_CREATE_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwFMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:23:42.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:24:01.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:23:37.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PROTOCOL_BASE_GET_USER_INFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_USER_INFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_USER_INFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_USER_INFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_USER_INFO_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:59:26.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PROTOCOL_BASE_GET_USER_INFO_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_USER_INFO_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_USER_INFO_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_USER_INFO_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_USER_INFO_REQ.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:03:28.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_SHOP_USE_GIFTCOUPON_REQ.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:35:11.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PROTOCOL_ROOM_CREATE_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CREATE_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CREATE_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CREATE_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CREATE_ACK.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:23:58.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Model\\Room.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Model\\Room.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Model\\Room.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Model\\Room.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAMgIAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:53:06.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PROTOCOL_ROOM_JOIN_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwHcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:24:07.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:28:44.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PROTOCOL_BASE_GET_SYSTEM_INFO_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_SYSTEM_INFO_REQ.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:03:24.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PROTOCOL_ROOM_GET_ACEMODE_PLAYERINFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_ACEMODE_PLAYERINFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_ACEMODE_PLAYERINFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_ACEMODE_PLAYERINFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_GET_ACEMODE_PLAYERINFO_ACK.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:28:48.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:28:56.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:29:08.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChangeRoomInfos.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\ChangeRoomInfos.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Chat\\ChangeRoomInfos.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\ChangeRoomInfos.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Chat\\ChangeRoomInfos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:24:13.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PROTOCOL_CLAN_WAR_CREATE_ROOM_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CLAN_WAR_CREATE_ROOM_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CLAN_WAR_CREATE_ROOM_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CLAN_WAR_CREATE_ROOM_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CLAN_WAR_CREATE_ROOM_REQ.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwDgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:23:19.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:38:27.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAFYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:17:43.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PROTOCOL_BASE_SELECT_CHANNEL_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_SELECT_CHANNEL_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_SELECT_CHANNEL_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_SELECT_CHANNEL_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_SELECT_CHANNEL_ACK.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:36:46.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:36:32.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:36:04.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChannelsXml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Xml\\ChannelsXml.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Xml\\ChannelsXml.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Xml\\ChannelsXml.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Xml\\ChannelsXml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:35:51.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_CHANNELLIST_REQ.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:57.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChannelsXml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Xml\\ChannelsXml.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Xml\\ChannelsXml.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Xml\\ChannelsXml.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Xml\\ChannelsXml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:32:23.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GameClient.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\GameClient.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\GameClient.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\GameClient.cs",
+              "RelativeToolTip": "PointBlank.Game\\GameClient.cs",
+              "ViewState": "AgIAANcCAAAAAAAAAAApwO0CAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:12:01.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PROTOCOL_LOBBY_GET_ROOMLIST_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_ACK.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:39:25.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Models\\Room.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Models\\Room.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:17.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PROTOCOL_BASE_SELECT_CHANNEL_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_SELECT_CHANNEL_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_SELECT_CHANNEL_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_SELECT_CHANNEL_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_BASE_SELECT_CHANNEL_REQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:36:21.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Channel.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Model\\Channel.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Model\\Channel.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Model\\Channel.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Model\\Channel.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAAwBMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:35:40.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHANNELLIST_ACK.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwDEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:33:22.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SendRefresh.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Sync\\Server\\SendRefresh.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Sync\\Server\\SendRefresh.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Sync\\Server\\SendRefresh.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Sync\\Server\\SendRefresh.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:31:39.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Sync\\AuthSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Sync\\AuthSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Sync\\AuthSync.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Sync\\AuthSync.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwDYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:29:57.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ClanManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Managers\\ClanManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Managers\\ClanManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Managers\\ClanManager.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Managers\\ClanManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:15:05.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CharacterManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Managers\\CharacterManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Managers\\CharacterManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Managers\\CharacterManager.cs",
+              "RelativeToolTip": "PointBlank.Core\\Managers\\CharacterManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:09:09.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SetCashToPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\SetCashToPlayer.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Chat\\SetCashToPlayer.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\SetCashToPlayer.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Chat\\SetCashToPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:07:00.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PlayerSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Sync\\Client\\PlayerSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Sync\\Client\\PlayerSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Sync\\Client\\PlayerSync.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Sync\\Client\\PlayerSync.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:50:28.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:09:08.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Managers\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Managers\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Managers\\PlayerManager.cs",
+              "RelativeToolTip": "PointBlank.Core\\Managers\\PlayerManager.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAAApwHcBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:58:47.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SendCashToPlayerDev.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\SendCashToPlayerDev.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Chat\\SendCashToPlayerDev.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\SendCashToPlayerDev.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Chat\\SendCashToPlayerDev.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:07:00.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PlayerSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Sync\\Client\\PlayerSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Sync\\Client\\PlayerSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Sync\\Client\\PlayerSync.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Sync\\Client\\PlayerSync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:57:11.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Managers\\AccountManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Managers\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Managers\\AccountManager.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Managers\\AccountManager.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAAwEcBAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:03:58.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:16:01.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Managers\\AccountManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Managers\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Managers\\AccountManager.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Managers\\AccountManager.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAG8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:24:59.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:57:48.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Model\\Account.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Model\\Account.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Model\\Account.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Model\\Account.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAjwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:25:16.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SendCashToPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\SendCashToPlayer.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Chat\\SendCashToPlayer.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Chat\\SendCashToPlayer.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Chat\\SendCashToPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T04:07:01.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RemovePlayerSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Sync\\Client\\RemovePlayerSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Sync\\Client\\RemovePlayerSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Sync\\Client\\RemovePlayerSync.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Sync\\Client\\RemovePlayerSync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:51:07.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_AUTH_GET_POINT_CASH_REQ.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:16:33.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:59:30.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_SERVER_LIST_REFRESH_REQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:55:33.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ShopManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Managers\\ShopManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Managers\\ShopManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Managers\\ShopManager.cs",
+              "RelativeToolTip": "PointBlank.Core\\Managers\\ShopManager.cs",
+              "ViewState": "AgIAALACAAAAAAAAAAAAALYCAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:02:12.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PROTOCOL_BASE_LOGIN_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAQwHgAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:17:01.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Model\\Account.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Data\\Model\\Account.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Data\\Model\\Account.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Data\\Model\\Account.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:01:43.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PROTOCOL_BASE_LOGIN_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:45:32.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UpdateCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Command\\Commands\\UpdateCommand.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Command\\Commands\\UpdateCommand.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Data\\Command\\Commands\\UpdateCommand.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Command\\Commands\\UpdateCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:02:43.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PROTOCOL_SHOP_TAG_INFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_SHOP_TAG_INFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_SHOP_TAG_INFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_SHOP_TAG_INFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_SHOP_TAG_INFO_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:03:00.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PROTOCOL_CS_MEMBER_INFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_CS_MEMBER_INFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_CS_MEMBER_INFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_CS_MEMBER_INFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_CS_MEMBER_INFO_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:03:22.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PROTOCOL_BASE_GET_MAP_INFO_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_MAP_INFO_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_MAP_INFO_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_MAP_INFO_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_GET_MAP_INFO_REQ.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T02:03:26.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ComDiv.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Network\\ComDiv.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Network\\ComDiv.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Network\\ComDiv.cs",
+              "RelativeToolTip": "PointBlank.Core\\Network\\ComDiv.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAK0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:42:29.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BitSet.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Network\\BitSet.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Network\\BitSet.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Network\\BitSet.cs",
+              "RelativeToolTip": "PointBlank.Core\\Network\\BitSet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:42:26.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Translation.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Translation.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Translation.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Translation.cs",
+              "RelativeToolTip": "PointBlank.Core\\Translation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:40:57.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ObjectAnim.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectAnim.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectAnim.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectAnim.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectAnim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:31:12.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ObjectStatic.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectStatic.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectStatic.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectStatic.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\ObjectStatic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:41.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "StageInfoObjStatic.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\StageInfoObjStatic.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\StageInfoObjStatic.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\StageInfoObjStatic.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\StageInfoObjStatic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:12.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "StageObjAnim.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\StageObjAnim.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\StageObjAnim.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\StageObjAnim.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\StageObjAnim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:15.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "BattleHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\BattleHandler.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\BattleHandler.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\BattleHandler.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\BattleHandler.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwBIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:18.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\BattleManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\BattleManager.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\BattleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:30.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "PROTOCOL_BOTS_ACTION.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Packets\\PROTOCOL_BOTS_ACTION.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Packets\\PROTOCOL_BOTS_ACTION.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Packets\\PROTOCOL_BOTS_ACTION.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Packets\\PROTOCOL_BOTS_ACTION.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:33.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ReceivePacket.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\ReceivePacket.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\ReceivePacket.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\ReceivePacket.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\ReceivePacket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:30:00.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RoomsManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\RoomsManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\RoomsManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\RoomsManager.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\RoomsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:47.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Program.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Program.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Program.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:17:09.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Program.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Program.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Program.cs",
+              "RelativeToolTip": "PointBlank.Game\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:12:15.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Program.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Program.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\Program.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAApwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:16:59.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GrenadeSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\GrenadeSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\GrenadeSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\GrenadeSync.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\GrenadeSync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:00.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DropedWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\DropedWeapon.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\DropedWeapon.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\DropedWeapon.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\DropedWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:55.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ControledObj.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\ControledObj.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\SubHead\\ControledObj.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\SubHead\\ControledObj.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\SubHead\\ControledObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:09.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "WeaponRecoil.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\WeaponRecoil.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\WeaponRecoil.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\WeaponRecoil.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\WeaponRecoil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:48.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Suicide.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\Suicide.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\Suicide.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\Suicide.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\Suicide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:32.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UseObject.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\UseObject.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\UseObject.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\UseObject.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\UseObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:37.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "RadioChat.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\RadioChat.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\RadioChat.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\RadioChat.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\RadioChat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:40.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "MissionData.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\MissionData.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\MissionData.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\MissionData.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\MissionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:45.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "GrenadeHit.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\GrenadeHit.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\GrenadeHit.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\GrenadeHit.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\GrenadeHit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:26.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "GetWeaponForHost.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForHost.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForHost.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForHost.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:19.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "GetWeaponForClient.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForClient.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForClient.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForClient.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\GetWeaponForClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:06.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "FireNHitDataOnObject.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\FireNHitDataOnObject.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\FireNHitDataOnObject.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\FireNHitDataOnObject.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\FireNHitDataOnObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:09.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "FireData.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\FireData.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\FireData.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\FireData.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\FireData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:02.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "DropWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\DropWeapon.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\DropWeapon.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\DropWeapon.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\DropWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:58.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Animation.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\Animation.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\Animation.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\Animation.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\Animation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:28:15.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "CharaFireNHitData.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\CharaFireNHitData.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\CharaFireNHitData.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\CharaFireNHitData.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\CharaFireNHitData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:51.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "ActionForObjectSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\ActionForObjectSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Network\\Actions\\Event\\ActionForObjectSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Network\\Actions\\Event\\ActionForObjectSync.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Network\\Actions\\Event\\ActionForObjectSync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:29:04.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "ServersXml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\ServersXml.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Xml\\ServersXml.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\ServersXml.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Xml\\ServersXml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:42.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "MeleeExceptionsXml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\MeleeExceptionsXml.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Xml\\MeleeExceptionsXml.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\MeleeExceptionsXml.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Xml\\MeleeExceptionsXml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:36.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "MapXml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\MapXml.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Xml\\MapXml.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\MapXml.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Xml\\MapXml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:32.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "CharaXml.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\CharaXml.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Xml\\CharaXml.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Xml\\CharaXml.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Xml\\CharaXml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:28.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Items\\ItemManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Items\\ItemManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Items\\ItemManager.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Items\\ItemManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:47.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Models\\Player.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "BattleSync.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Sync\\BattleSync.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Sync\\BattleSync.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\Sync\\BattleSync.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Sync\\BattleSync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:27:23.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ConfigFile.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\ConfigFile.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\ConfigFile.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\ConfigFile.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\ConfigFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:26:36.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "AuthClient.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\AuthClient.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\AuthClient.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Auth\\AuthClient.cs",
+              "RelativeToolTip": "PointBlank.Auth\\AuthClient.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAApwN8AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:30:07.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "AllUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\AllUtils.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\AllUtils.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Data\\AllUtils.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\AllUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:26:47.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Logger.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Logger.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Battle\\Logger.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:18:04.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Logger.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Logger.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Core\\Logger.cs",
+              "RelativeToolTip": "PointBlank.Core\\Logger.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAgwGcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:14:51.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\GameManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\GameManager.cs",
+              "RelativeToolTip": "PointBlank.Game\\GameManager.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:12:12.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Game.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Game.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\Point Blank Server 3.68 MithG \u002B zRyzonixZ\\PointBlank.Game\\Game.cs",
+              "RelativeToolTip": "PointBlank.Game\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:12:09.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_lobby_get_roomlist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_lobby_get_roomlist_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|c:\\users\\ryzuk\\onedrive\\documents\\visual studio 2022\\project\\pavel 3.68 - clean edited\\pointblank.core\\models\\account\\players\\itemsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\models\\account\\players\\itemsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|c:\\users\\ryzuk\\onedrive\\documents\\visual studio 2022\\project\\pavel 3.68 - clean edited\\pointblank.core\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.auth\\network\\clientpacket\\protocol_base_login_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\clientpacket\\protocol_base_login_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.auth\\network\\serverpacket\\protocol_base_login_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_login_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.auth\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_auth_get_point_cash_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_char_create_chara_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_char_create_chara_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.auth\\network\\serverpacket\\protocol_base_get_chara_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_get_chara_info_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_char_change_equip_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_char_change_equip_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_char_delete_chara_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_char_delete_chara_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_char_create_chara_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_char_create_chara_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_char_change_equip_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_char_change_equip_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\data\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\data\\utils\\allutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\data\\utils\\allutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_room_create_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_room_create_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_room_change_roominfo_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_room_change_roominfo_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_room_join_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_join_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_room_personal_team_change_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_room_personal_team_change_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_room_change_roominfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_change_roominfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_lobby_get_roominfoadd_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_lobby_get_roominfoadd_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\serverpacket\\protocol_room_change_room_optioninfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\serverpacket\\protocol_room_change_room_optioninfo_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.core\\models\\enums\\mapidenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F13F1FC-BDD2-40CF-A7BF-7FE013FD1E5F}|PointBlank.Core\\PointBlank.Core.csproj|solutionrelative:pointblank.core\\models\\enums\\mapidenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.auth\\network\\serverpacket\\protocol_base_daily_record_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF5F608-4290-4668-8308-B6E23BD5216A}|PointBlank.Auth\\PointBlank.Auth.csproj|solutionrelative:pointblank.auth\\network\\serverpacket\\protocol_base_daily_record_ack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.game\\network\\clientpacket\\protocol_room_select_slot_change_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1CC6468-A16E-4E25-8BE7-EA37A9B9F8FC}|PointBlank.Game\\PointBlank.Game.csproj|solutionrelative:pointblank.game\\network\\clientpacket\\protocol_room_select_slot_change_req.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\pointblank.battle\\data\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB690DC-D3B1-4760-9465-8D9CBCE16F2B}|PointBlank.Battle\\PointBlank.Battle.csproj|solutionrelative:pointblank.battle\\data\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_LOBBY_GET_ROOMLIST_REQ.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAGQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "PointBlank.Game\\Network\\ClientPacket",
+              "WhenOpened": "2025-03-25T03:54:00.936Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Core\\Models\\Account\\Players\\ItemsModel.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Models\\Account\\Players\\ItemsModel.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Core\\Models\\Account\\Players\\ItemsModel.cs",
+              "RelativeToolTip": "PointBlank.Core\\Models\\Account\\Players\\ItemsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T01:06:19.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PROTOCOL_BASE_LOGIN_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ClientPacket\\PROTOCOL_BASE_LOGIN_REQ.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:09:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Core\\Managers\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Managers\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Core\\Managers\\PlayerManager.cs",
+              "RelativeToolTip": "PointBlank.Core\\Managers\\PlayerManager.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAApwBIBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:00:01.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PROTOCOL_BASE_LOGIN_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_LOGIN_ACK.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:09:08.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAApwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:05:09.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_AUTH_GET_POINT_CASH_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:04:55.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_GET_CHARA_INFO_ACK.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:28:36.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PROTOCOL_CHAR_CREATE_CHARA_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CREATE_CHARA_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CREATE_CHARA_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CREATE_CHARA_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CREATE_CHARA_ACK.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:27:32.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PROTOCOL_CHAR_CHANGE_EQUIP_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_ACK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:27:31.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PROTOCOL_CHAR_DELETE_CHARA_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_DELETE_CHARA_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_DELETE_CHARA_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_DELETE_CHARA_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_DELETE_CHARA_REQ.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:27:28.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CREATE_CHARA_REQ.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:27:23.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PROTOCOL_CHAR_CHANGE_EQUIP_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_CHAR_CHANGE_EQUIP_REQ.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:27:18.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AllUtils.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Data\\Utils\\AllUtils.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Utils\\AllUtils.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Data\\Utils\\AllUtils.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Utils\\AllUtils.cs",
+              "ViewState": "AgIAAI8GAAAAAAAAAAApwJ4GAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:43:46.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PROTOCOL_ROOM_JOIN_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_JOIN_ACK.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAApwIUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:15:21.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_REQ.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAApwDEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:14:48.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PROTOCOL_ROOM_CREATE_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_CREATE_REQ.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAApwFQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:13:48.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_LOBBY_GET_ROOMINFOADD_ACK.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAApwCMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:15:02.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOMINFO_ACK.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAApwDsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:15:08.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ServerPacket\\PROTOCOL_ROOM_CHANGE_ROOM_OPTIONINFO_ACK.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:15:15.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Data\\Model\\Room.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Data\\Model\\Room.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Data\\Model\\Room.cs",
+              "RelativeToolTip": "PointBlank.Game\\Data\\Model\\Room.cs",
+              "ViewState": "AgIAACUCAAAAAAAAAAAAADYCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:32:53.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PROTOCOL_ROOM_PERSONAL_TEAM_CHANGE_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_PERSONAL_TEAM_CHANGE_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_PERSONAL_TEAM_CHANGE_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_PERSONAL_TEAM_CHANGE_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_PERSONAL_TEAM_CHANGE_REQ.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAApwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:15:46.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MapIdEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Core\\Models\\Enums\\MapIdEnum.cs",
+              "RelativeDocumentMoniker": "PointBlank.Core\\Models\\Enums\\MapIdEnum.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Core\\Models\\Enums\\MapIdEnum.cs",
+              "RelativeToolTip": "PointBlank.Core\\Models\\Enums\\MapIdEnum.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAApwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:23:13.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "RelativeDocumentMoniker": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "RelativeToolTip": "PointBlank.Auth\\Network\\ServerPacket\\PROTOCOL_BASE_DAILY_RECORD_ACK.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:22:52.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ.cs",
+              "RelativeDocumentMoniker": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ.cs",
+              "RelativeToolTip": "PointBlank.Game\\Network\\ClientPacket\\PROTOCOL_ROOM_SELECT_SLOT_CHANGE_REQ.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAApwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:15:31.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Battle\\Data\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "PointBlank.Battle\\Data\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\Ryzuk\\OneDrive\\Documents\\Visual Studio 2022\\Project\\PAVEL 3.68 - CLEAN EDITED\\PointBlank.Battle\\Data\\Models\\Room.cs",
+              "RelativeToolTip": "PointBlank.Battle\\Data\\Models\\Room.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:31:31.586Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

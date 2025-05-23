@@ -1,1 +1,0 @@
-start PointBlank.exe /GameID:"1" /Token:12345678
