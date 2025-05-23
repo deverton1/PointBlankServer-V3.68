@@ -377,19 +377,40 @@ namespace PointBlank.Auth
                     }
 
                     int PacketLengthTotal = BitConverter.ToUInt16(asyncState.Buffer, 0) & 0x7FFF;
+                    if (PacketLengthTotal <= 0 || PacketLengthTotal > StateSocket.bufferSize)
+                    {
+                        Logger.warning("Invalid packet length: " + PacketLengthTotal);
+                        Close(0, true);
+                        return;
+                    }
+
                     bool EncryptedPackage = byteSize - PacketLengthTotal == 3;
+                    if (!EncryptedPackage && byteSize - PacketLengthTotal != 5)
+                    {
+                        Logger.warning($"Invalid package size - ByteSize: {byteSize}, PacketLength: {PacketLengthTotal}");
+                        Close(0, true);
+                        return;
+                    }
 
                     try
                     {
                         byte[] packetDataEncryted = new byte[PacketLengthTotal];
-                        Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
-
-                        int shift = (int)SessionId % 7 + 1;
-                        CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
-                        RunPacket(packetDataEncryted);
+                        if (PacketLengthTotal + 2 <= asyncState.Buffer.Length)
+                        {
+                            Array.Copy(asyncState.Buffer, 2, packetDataEncryted, 0, packetDataEncryted.Length);
+                            int shift = (int)SessionId % 7 + 1;
+                            CBitRotDecryptor(packetDataEncryted, 0, 2048, shift);
+                            RunPacket(packetDataEncryted);
+                        }
+                        else
+                        {
+                            Logger.warning("Buffer overflow prevented");
+                            Close(0, true);
+                        }
                     }
                     catch (Exception ex)
                     {
+                        Logger.error("OnReceiveCallback: " + ex.ToString());
                         Logger.warning("OnReceiveCallback: " + ex.ToString());
                     }
                 }
