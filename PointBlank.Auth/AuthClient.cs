@@ -197,29 +197,24 @@ namespace PointBlank.Auth
                 using (bp)
                 {
                     bp.write();
-                    byte[] oldPacketData = bp.mstream.ToArray();
-                    if (oldPacketData.Length < 2)
+                    byte[] data = bp.mstream.ToArray();
+                    if (data.Length < 2)
                     {
-                        Console.WriteLine("Error");
                         return;
                     }
-                    ushort opcode = BitConverter.ToUInt16(oldPacketData, 0);
-                    int lengthBasic = oldPacketData.Length + 2;
-                    byte[] PacketSize = BitConverter.GetBytes((ushort)lengthBasic); // converte o short em um array de bytes
-                    byte[] newPacketData = new byte[oldPacketData.Length + PacketSize.Length];
-                    Array.Copy(PacketSize, 0, newPacketData, 0, PacketSize.Length); // copia os bytes do short para o início do novo array
-                    Array.Copy(oldPacketData, 0, newPacketData, PacketSize.Length, oldPacketData.Length); // copia os bytes do array original para o novo array após o short
+                    ushort size = Convert.ToUInt16(data.Length - 2);
+                    byte[] packet = new byte[data.Length + 2];
+                    Array.Copy(BitConverter.GetBytes(size), 0, packet, 0, 2);
+                    Array.Copy(data, 0, packet, 2, data.Length);
 
-
-                    byte[] bytesLogics = new byte[5]; // Novos bytes a serem adicionados
-
-                    int tamanhoAntigo = oldPacketData.Length; // Armazena o tamanho antigo do array
-                    Array.Resize(ref newPacketData, newPacketData.Length + bytesLogics.Length); // Redimensiona o array para adicionar os novos bytes
-
-                    for (int i = 1; i <= bytesLogics.Length; i++)
-                    {
-                        newPacketData[tamanhoAntigo + i] = bytesLogics[i - 1]; // Adiciona os novos bytes ao array
-                    }
+                    _client.BeginSend(packet, 0, packet.Length, SocketFlags.None, new AsyncCallback(SendCallback), _client);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.error("SendPacket: " + ex.ToString());
+                Close(0, true);
+            }
 
                     Logger.Cyan($"[S]: {bp.GetType().Name}\t\tData Length: {newPacketData.Length}");
 
@@ -377,16 +372,17 @@ namespace PointBlank.Auth
                     }
 
                     int PacketLengthTotal = BitConverter.ToUInt16(asyncState.Buffer, 0) & 0x7FFF;
-                    if (PacketLengthTotal <= 0 || PacketLengthTotal > StateSocket.bufferSize)
+                    if (PacketLengthTotal <= 0)
                     {
-                        Logger.warning("Invalid packet length: " + PacketLengthTotal);
+                        BeginResult();
                         return;
                     }
 
                     bool EncryptedPackage = byteSize - PacketLengthTotal == 3;
                     if (!EncryptedPackage && byteSize - PacketLengthTotal != 5)
                     {
-                        Logger.warning($"Package size mismatch - ByteSize: {byteSize}, PacketLength: {PacketLengthTotal}");
+                        Logger.warning($"Package size mismatch - ByteSize: {byteSize}, PacketLength: {PacketLengthTotal}, Difference: {byteSize - PacketLengthTotal}");
+                        BeginResult();
                         return;
                     }
 
